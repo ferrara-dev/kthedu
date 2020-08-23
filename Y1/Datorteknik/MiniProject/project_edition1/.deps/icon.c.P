@@ -1,0 +1,10 @@
+graphics/icon.c.o: graphics/icon.c graphics/includes/icon.h \
+ /opt/mcb32tools/include/stdint.h \
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stdint-gcc.h \
+ graphics/includes/../../includes/vector.h \
+ graphics/../IO/includes/peripherals.h
+graphics/icon.c graphics/includes/icon.h :
+ /opt/mcb32tools/include/stdint.h :
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stdint-gcc.h :
+ graphics/includes/../../includes/vector.h :
+ graphics/../IO/includes/peripherals.h :

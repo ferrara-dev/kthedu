@@ -1,0 +1,22 @@
+graphics/interface.c.o: graphics/interface.c \
+ /opt/mcb32tools/include/string.h /opt/mcb32tools/include/klibc/extern.h \
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stddef.h \
+ graphics/includes/interface.h graphics/../IO/includes/button.h \
+ graphics/../IO/includes/peripherals.h /opt/mcb32tools/include/stdint.h \
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stdint-gcc.h \
+ graphics/../game/includes/game.h \
+ graphics/../game/includes/../../includes/entity.h \
+ graphics/../game/includes/../../includes/vector.h \
+ graphics/../game/includes/../../includes/../graphics/includes/icon.h \
+ graphics/../includes/functions.h
+graphics/interface.c :
+ /opt/mcb32tools/include/string.h /opt/mcb32tools/include/klibc/extern.h :
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stddef.h :
+ graphics/includes/interface.h graphics/../IO/includes/button.h :
+ graphics/../IO/includes/peripherals.h /opt/mcb32tools/include/stdint.h :
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stdint-gcc.h :
+ graphics/../game/includes/game.h :
+ graphics/../game/includes/../../includes/entity.h :
+ graphics/../game/includes/../../includes/vector.h :
+ graphics/../game/includes/../../includes/../graphics/includes/icon.h :
+ graphics/../includes/functions.h :

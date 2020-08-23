@@ -1,0 +1,4 @@
+display.c.o: display.c /opt/mcb32tools/include/pic32mx.h \
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stddef.h
+display.c /opt/mcb32tools/include/pic32mx.h :
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stddef.h :

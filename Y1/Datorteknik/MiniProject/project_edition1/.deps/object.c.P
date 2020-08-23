@@ -1,0 +1,10 @@
+game/object.c.o: game/object.c game/includes/objects.h \
+ /opt/mcb32tools/include/stdlib.h /opt/mcb32tools/include/klibc/extern.h \
+ /opt/mcb32tools/include/klibc/inline.h \
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stddef.h \
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stdbool.h
+game/object.c game/includes/objects.h :
+ /opt/mcb32tools/include/stdlib.h /opt/mcb32tools/include/klibc/extern.h :
+ /opt/mcb32tools/include/klibc/inline.h :
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stddef.h :
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stdbool.h :

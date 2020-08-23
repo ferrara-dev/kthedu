@@ -1,0 +1,5 @@
+.deps*
+*.o
+*.hex
+*.elf
+pic2arr*

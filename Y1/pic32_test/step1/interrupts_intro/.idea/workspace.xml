@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9bd7ec38-66c8-4bbf-926e-c75d7d9c92b9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ProjectId" id="1XIihLOACZPhqWwfeTdxgHPBu6x" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/startmenu" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\root\Desktop\pic32_test\step1\interrupts_intro\startmenu" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\root\Desktop\pic32_test\step1\interrupts_intro" />
+      <recent name="C:\Users\root\Desktop\pic32_test\step1\interrupts_intro\startmenu" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9bd7ec38-66c8-4bbf-926e-c75d7d9c92b9" name="Default Changelist" comment="" />
+      <created>1580740127916</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580740127916</updated>
+      <workItem from="1580740129147" duration="7252000" />
+      <workItem from="1580751756571" duration="172000" />
+      <workItem from="1580752434895" duration="1856000" />
+      <workItem from="1580810740713" duration="4529000" />
+      <workItem from="1581113534464" duration="1564000" />
+      <workItem from="1581158328669" duration="54000" />
+      <workItem from="1581513488029" duration="753000" />
+      <workItem from="1581527292622" duration="4844000" />
+      <workItem from="1581674526605" duration="1787000" />
+      <workItem from="1582137653023" duration="3283000" />
+      <workItem from="1582327168779" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="543" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580810760801">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="543" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1580810760801" />
+    <state x="496" y="162" width="607" height="536" key="find.popup" timestamp="1582138499409">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="496" y="162" width="607" height="536" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1582138499409" />
+    <state x="456" y="195" key="run.anything.popup" timestamp="1582137907718">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1582137907718" />
+  </component>
+</project>

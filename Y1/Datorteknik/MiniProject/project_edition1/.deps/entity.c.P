@@ -1,0 +1,12 @@
+main/entity.c.o: main/entity.c \
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stddef.h \
+ main/../includes/entity.h /opt/mcb32tools/include/stdint.h \
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stdint-gcc.h \
+ main/../includes/vector.h main/../includes/graphics/icon.h \
+ main/../includes/level.h main/../includes/pheriperals/peripherals.h
+main/entity.c :
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stddef.h :
+ main/../includes/entity.h /opt/mcb32tools/include/stdint.h :
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stdint-gcc.h :
+ main/../includes/vector.h main/../includes/graphics/icon.h :
+ main/../includes/level.h main/../includes/pheriperals/peripherals.h :

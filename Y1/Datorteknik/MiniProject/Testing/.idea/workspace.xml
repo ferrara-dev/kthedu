@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b88c61d5-36de-4a79-8234-498950519057" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ProjectId" id="1X9hQ4jArysGl9sQJWQXUz3iH4C" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/button-OLCD-test/testOLCD" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\root\Desktop\Datorteknik\MiniProject\Testing\button-OLCD-test\testOLCD" />
+      <recent name="C:\Users\root\Desktop\Datorteknik\MiniProject\Testing\hello-leds-master\hello-leds-master" />
+      <recent name="C:\Users\root\Desktop\Datorteknik\MiniProject\Testing" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b88c61d5-36de-4a79-8234-498950519057" name="Default Changelist" comment="" />
+      <created>1580464197331</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580464197331</updated>
+      <workItem from="1580464198885" duration="40625000" />
+      <workItem from="1580663929468" duration="9498000" />
+      <workItem from="1581508321444" duration="1273000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="562" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580558894213">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="562" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1580558894213" />
+    <state x="580" y="186" key="FileChooserDialogImpl" timestamp="1580551765727">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="186" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1580551765727" />
+    <state x="682" y="324" width="260" height="211" key="Github.ShareDialog" timestamp="1580551746892">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="682" y="324" width="260" height="211" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1580551746892" />
+    <state x="456" y="195" key="run.anything.popup" timestamp="1580560231009">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1580560231009" />
+  </component>
+</project>

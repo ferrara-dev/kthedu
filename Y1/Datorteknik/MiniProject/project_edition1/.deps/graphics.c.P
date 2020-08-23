@@ -1,0 +1,14 @@
+graphics/graphics.c.o: graphics/graphics.c \
+ /opt/mcb32tools/include/stdint.h \
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stdint-gcc.h \
+ /opt/mcb32tools/include/pic32mx.h graphics/../IO/includes/peripherals.h \
+ graphics/../includes/functions.h graphics/includes/icon.h \
+ graphics/includes/../../includes/vector.h graphics/../includes/entity.h \
+ graphics/../game/includes/objects.h
+graphics/graphics.c :
+ /opt/mcb32tools/include/stdint.h :
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stdint-gcc.h :
+ /opt/mcb32tools/include/pic32mx.h graphics/../IO/includes/peripherals.h :
+ graphics/../includes/functions.h graphics/includes/icon.h :
+ graphics/includes/../../includes/vector.h graphics/../includes/entity.h :
+ graphics/../game/includes/objects.h :

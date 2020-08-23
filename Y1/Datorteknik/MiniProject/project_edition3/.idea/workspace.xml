@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c32c7e22-0d0e-4566-936a-89c69aa4016f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ProjectId" id="1Xx8NPztfbnsJgq116teqQAYWnS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\root\Desktop\Datorteknik\MiniProject\project_edition3\main" />
+      <recent name="C:\Users\root\Desktop\Datorteknik\MiniProject\project_edition3\includes" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c32c7e22-0d0e-4566-936a-89c69aa4016f" name="Default Changelist" comment="" />
+      <created>1581976344072</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581976344072</updated>
+      <workItem from="1581976345398" duration="21202000" />
+      <workItem from="1582327169287" duration="23000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="399" y="96" key="#New_File_Extensions" timestamp="1582016076311">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="399" y="96" key="#New_File_Extensions/0.0.1600.860@0.0.1600.860" timestamp="1582016076311" />
+    <state x="261" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582028542460">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="261" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1582028542460" />
+    <state x="107" y="107" width="1400" height="660" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582031269355">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="107" y="107" width="1400" height="660" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1582031269355" />
+    <state x="891" y="278" width="607" height="536" key="find.popup" timestamp="1582043128214">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="891" y="278" width="607" height="536" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1582043128214" />
+    <state x="463" y="201" key="run.anything.popup" timestamp="1582028144043">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="201" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1582028144043" />
+  </component>
+</project>

@@ -1,0 +1,6 @@
+# Following files should be ignored when uploading to repository.
+.deps
+*.o
+*.elf
+*.hex
+*.gch

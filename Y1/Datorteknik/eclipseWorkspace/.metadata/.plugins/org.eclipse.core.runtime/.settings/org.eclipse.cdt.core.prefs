@@ -1,0 +1,10 @@
+ToolChainManager/order/0.id=gcc-arm-c\:/tools/CodeSourcery/Sourcery/arm-none-linux-gnueabi/bin/gcc.exe
+ToolChainManager/order/0.type=org.eclipse.cdt.build.gcc
+ToolChainManager/order/1.id=gcc-arm-C\:/Program Files (x86)/CodeSourcery/Sourcery G++ Lite/bin/arm-none-linux-gnueabi-gcc.exe
+ToolChainManager/order/1.type=org.eclipse.cdt.build.gcc
+ToolChainManager/order/2.id=gcc-arm-C\:/CodeSourcery/bin/arm-none-linux-gnueabi-gcc.exe
+ToolChainManager/order/2.type=org.eclipse.cdt.build.gcc
+ToolChainManager/order/3.id=gcc--C\:/CodeSourcery/bin/cs-make.exe
+ToolChainManager/order/3.type=org.eclipse.cdt.build.gcc
+ToolChainManager/order/n=3
+eclipse.preferences.version=1

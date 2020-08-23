@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5d538cdf-3598-46ac-8b16-c151adf9c974" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Setup Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XJGmHUBlAfUA3wi2QNz1RVERDr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pixmaps/font.png" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="pixmapgen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Pacman-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\root\Desktop\Datorteknik\pacman-demo\Pacman-master\Pacman-master\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pixmaps" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pixmaps/pixmapgen.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="C:\Users\root\Desktop\Datorteknik\pacman-demo\Pacman-master\Pacman-master\pixmaps\font.png" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.pixmapgen" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d538cdf-3598-46ac-8b16-c151adf9c974" name="Default Changelist" comment="" />
+      <created>1580756940423</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580756940423</updated>
+      <workItem from="1580756941929" duration="1602000" />
+      <workItem from="1582035658190" duration="10017000" />
+      <workItem from="1582327168932" duration="26000" />
+      <workItem from="1582476412131" duration="15916000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="89" key="#Inspections" timestamp="1582564674800">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="89" key="#Inspections/0.0.1600.860@0.0.1600.860" timestamp="1582564674800" />
+    <state x="254" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582567429235">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1582567429235" />
+    <state x="579" y="135" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1582567460301">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="579" y="135" key="#com.intellij.ide.macro.MacrosDialog/0.0.1600.860@0.0.1600.860" timestamp="1582567460301" />
+    <state x="519" y="46" key="#pixmapgen" timestamp="1582567664759">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="519" y="46" key="#pixmapgen/0.0.1600.860@0.0.1600.860" timestamp="1582567664759" />
+    <state x="534" y="192" key="EnvironmentVariablesDialog" timestamp="1582567453445">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="534" y="192" key="EnvironmentVariablesDialog/0.0.1600.860@0.0.1600.860" timestamp="1582567453445" />
+    <state x="577" y="262" key="FileChooserDialogImpl" timestamp="1582567630749">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="577" y="262" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1582567630749" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1582829572967">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1582829572967" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1582829572967">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1582829572967" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1582829572967">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1582829572967" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1582829572967">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1582829572967" />
+    <state x="301" y="73" key="SettingsEditor" timestamp="1582566791445">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="73" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1582566791445" />
+    <state x="327" y="136" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1" timestamp="1582567390898">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="327" y="136" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/0.0.1600.860@0.0.1600.860" timestamp="1582567390898" />
+    <state x="887" y="145" width="607" height="536" key="find.popup" timestamp="1582705420358">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="887" y="145" width="607" height="536" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1582705420358" />
+    <state x="456" y="195" key="run.anything.popup" timestamp="1582624136978">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1582624136978" />
+  </component>
+</project>

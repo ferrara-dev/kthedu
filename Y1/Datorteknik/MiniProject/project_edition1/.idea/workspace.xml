@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c2d20394-b7fa-425e-87c5-3d478ec52b3c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ProjectId" id="1XD2WzDRgGznS7dilzlF9Zp7AVA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\root\Desktop\pic32_test\step1\startMenu_intro" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\root\Desktop\Datorteknik\MiniProject\project_edition1\game\includes" />
+      <recent name="C:\Users\root\Desktop\Datorteknik\MiniProject\project_edition1\graphics\includes" />
+      <recent name="C:\Users\root\Desktop\Datorteknik\MiniProject\project_edition1\IO\includes" />
+      <recent name="C:\Users\root\Desktop\Datorteknik\MiniProject\project_edition1\game\game" />
+      <recent name="C:\Users\root\Desktop\Datorteknik\MiniProject\project_edition1\game" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2d20394-b7fa-425e-87c5-3d478ec52b3c" name="Default Changelist" comment="" />
+      <created>1580566379523</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580566379523</updated>
+      <workItem from="1580566380980" duration="3664000" />
+      <workItem from="1580664739508" duration="1371000" />
+      <workItem from="1580803596249" duration="37947000" />
+      <workItem from="1580988609016" duration="65656000" />
+      <workItem from="1582187026827" duration="718000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="561" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581084295456">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="561" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1581084295456" />
+    <state x="530" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581019760869">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1581019760869" />
+    <state x="490" y="204" key="run.anything.popup" timestamp="1581090458949">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="490" y="204" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1581090458949" />
+    <state x="470" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1581076309012">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="470" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1581076309012" />
+  </component>
+</project>

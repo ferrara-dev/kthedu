@@ -1,0 +1,2 @@
+utils/stubs.c.o: utils/stubs.c
+utils/stubs.c :

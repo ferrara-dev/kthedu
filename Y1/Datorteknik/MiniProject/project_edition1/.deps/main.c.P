@@ -1,0 +1,28 @@
+main/main.c.o: main/main.c /opt/mcb32tools/include/stdlib.h \
+ /opt/mcb32tools/include/klibc/extern.h \
+ /opt/mcb32tools/include/klibc/inline.h \
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stddef.h \
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stdbool.h \
+ /opt/mcb32tools/include/pic32mx.h main/../IO/includes/peripherals.h \
+ /opt/mcb32tools/include/stdint.h \
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stdint-gcc.h \
+ main/../game/includes/game.h \
+ main/../game/includes/../../includes/entity.h \
+ main/../game/includes/../../includes/vector.h \
+ main/../game/includes/../../includes/../graphics/includes/icon.h \
+ main/../game/includes/level.h main/../graphics/includes/interface.h \
+ main/../IO/includes/timers.h
+main/main.c /opt/mcb32tools/include/stdlib.h :
+ /opt/mcb32tools/include/klibc/extern.h :
+ /opt/mcb32tools/include/klibc/inline.h :
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stddef.h :
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stdbool.h :
+ /opt/mcb32tools/include/pic32mx.h main/../IO/includes/peripherals.h :
+ /opt/mcb32tools/include/stdint.h :
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stdint-gcc.h :
+ main/../game/includes/game.h :
+ main/../game/includes/../../includes/entity.h :
+ main/../game/includes/../../includes/vector.h :
+ main/../game/includes/../../includes/../graphics/includes/icon.h :
+ main/../game/includes/level.h main/../graphics/includes/interface.h :
+ main/../IO/includes/timers.h :
