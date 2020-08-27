@@ -25,7 +25,7 @@ public class BasicStack<Data> implements Stack<Data> {
 
     /**
      * Push a new element to the top of the stack.
-     * The
+     *
      *
      * @param data that is contained by the element.
      */
@@ -39,7 +39,7 @@ public class BasicStack<Data> implements Stack<Data> {
 
     /**
      * Fetches data from element currently at the top of the stack,
-     * removes the element and then returns the data.
+     * goes on to remove the element and then returns the data.
      *
      * @return the data that is contained by the element
      * that is currently at the top of the stack.

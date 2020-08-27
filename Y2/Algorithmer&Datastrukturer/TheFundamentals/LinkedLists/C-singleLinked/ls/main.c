@@ -68,9 +68,11 @@ void readStdin(Stack *stack) {
 void readStdin_rec(Stack *stack)
 {
     char c = getchar();
-    if (c == EOF || c=='\n')
+    if (c == EOF | c=='\n')
         return;
+
     stack->push(stack,c);
+
     readStdin_rec(stack);
 }
 
