@@ -153,9 +153,10 @@ public class QueueImpl<Item> implements Queue<Item> {
      *
      * Test data is received from a text file containing a sequence of characters.
      *
-     * If read character equals '-' dequeue() is called
-     * If read character is a digit, it is enqueued by calling enqueue(Item item)
-     * If read character equals '\n' OR -1 the test is terminated
+     * If read string equals '-' dequeue() is called
+     * If read string is a digit, it is enqueued by calling enqueue(Item item)
+     * The file is read until <code> scanner </code> obj does not have any
+     * lines left to read
      *
      * The test will also test the iterator implementation.
      */
