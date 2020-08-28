@@ -6,3 +6,17 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/root/Desktop/kthedu/Y2/Algorithmer&Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/datastructure/Node.h
+stdlib.h
+-
+
+C:/Users/root/Desktop/kthedu/Y2/Algorithmer&Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/datastructure/Stack.h
+Node.h
+C:/Users/root/Desktop/kthedu/Y2/Algorithmer&Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/datastructure/Node.h
+
+C:/Users/root/Desktop/kthedu/Y2/Algorithmer&Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/main.c
+stdio.h
+-
+datastructure/Stack.h
+C:/Users/root/Desktop/kthedu/Y2/Algorithmer&Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/datastructure/Stack.h
+

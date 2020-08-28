@@ -14,7 +14,7 @@ import java.util.Scanner;
  *             [x][x][x][x]->[x] --> dequeue
  * @param <Item>
  */
-public class QueueImpl<Item> implements Queue<Item> {
+public class QueueImpl<Item extends Comparable<Item>> implements Queue<Item> {
     Node sentinel;
 
     public QueueImpl(){
@@ -118,7 +118,6 @@ public class QueueImpl<Item> implements Queue<Item> {
 
     }
 
-
     /**
      * Returns an iterator to this stack that iterates through the items in FIFO order.
      *
@@ -156,7 +155,7 @@ public class QueueImpl<Item> implements Queue<Item> {
      * If read string equals '-' dequeue() is called
      * If read string is a digit, it is enqueued by calling enqueue(Item item)
      * The file is read until <code> scanner </code> obj does not have any
-     * lines left to read
+     * string left to read
      *
      * The test will also test the iterator implementation.
      */
@@ -200,9 +199,6 @@ public class QueueImpl<Item> implements Queue<Item> {
             test(inputStream);
         }
 
-        /**
-         * Test method used to test the
-         */
         private void testIter(){
             System.out.println("::::::::::::::: Testing iterator :::::::::::::::");
             System.out.println("Current queue state is : " + queue.toString());
