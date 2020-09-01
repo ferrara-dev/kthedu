@@ -2,8 +2,8 @@
 // Created by Samuel Ferrara on 2020-08-25.
 //
 
-#include "Stack.h"
 #include <stdio.h>
+#include "Stack.h"
 
 void print(struct Stack *self) {
     Node *n = self->head;
@@ -15,8 +15,7 @@ void print(struct Stack *self) {
 }
 
 /**
- * push a character to the top
- * of the stack.
+ * push a character to the top of the stack.
  */
 void push(struct Stack *self, char c) {
     Node *node = createNode(c);
@@ -26,12 +25,14 @@ void push(struct Stack *self, char c) {
 }
 
 /**
- * pop a character from the top
- * of the stack.
+ * pop a character from the top of the stack.
+ *
+ * If the list is empty, returns null termination char.
+ *
  */
 char pop(Stack *self) {
     if (self->head == NULL) {
-        exit(1);
+        return '\0';
     } else {
         char c = self->head->data;
         self->head = self->head->next;
@@ -39,13 +40,29 @@ char pop(Stack *self) {
     }
 }
 
+/**
+ * Check if the stack is empty.
+ *
+ * If head @code{Node} is pointing to NULL
+ * return 1
+ *
+ * else return 0;
+ */
 int isEmpty(Stack *self) {
     if (self->head == NULL)
         return 1;
     else
         return 0;
 }
-
+/**
+**
+ * Implementation Construct function of @code{Stack} struct.
+ *
+ * allocates the memory space for the stack and initialises
+ * its variables.
+ *
+ * @return a pointer to the created node
+ */
 Stack *new_stack(){
     Stack *stack = malloc(sizeof(*stack));
     if (stack == NULL) {

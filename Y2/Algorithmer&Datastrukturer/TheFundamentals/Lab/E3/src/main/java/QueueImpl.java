@@ -10,6 +10,9 @@ import java.util.Scanner;
  * Doubly linked circular list Implementation of a generic queue enforcing
  * the First In First Out policy.
  *
+ * The doubly linked list is implemented using an empty sentinel node to denote the
+ * start / beginning of the list.
+ *
  * enqueue --> [x]->[x][x][x][x]
  *             [x][x][x][x]->[x] --> dequeue
  * @param <Item>
@@ -55,6 +58,9 @@ public class QueueImpl<Item extends Comparable<Item>> implements Queue<Item> {
         return item;
     }
 
+    /**
+     * Print all elements currently in the queue
+     */
     @Override
     public void print(){
         System.out.println(toString());
@@ -89,7 +95,7 @@ public class QueueImpl<Item extends Comparable<Item>> implements Queue<Item> {
 
 
     /**
-     * Enqueue a new item to the top of the list.
+     * Enqueue a new item to the front-end of the list.
      *
      * @param item
      */

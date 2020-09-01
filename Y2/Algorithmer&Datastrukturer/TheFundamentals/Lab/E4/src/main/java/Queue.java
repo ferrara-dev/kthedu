@@ -1,7 +1,8 @@
 public interface Queue<Item> extends Iterable<Item> {
     boolean isEmpty();
-    Item dequeue();
-    void enqueue(Item item);
+    void addFirst(Item item);
+    void addLast(Item item);
+    Item removeFirst();
+    Item removeLast();
     void print();
-    void insert(Item item);
 }

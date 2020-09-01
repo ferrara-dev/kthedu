@@ -15,6 +15,7 @@ void readStdin(Stack *stack);
 
 void readStdin_rec(Stack *stack);
 
+
 /**
  * Program that reads characters from standard input
  * and then prints them in reverse order to standard output.
@@ -53,7 +54,6 @@ void run(const char *commandLineArg) {
  * read from stdin will be writen to stdout in reverse order.
  */
 void readAndPrintReverse_rec() {
-    printf("Operation performed with recursion \n");
     char c = getchar();
     if (c != EOF) {
         readAndPrintReverse_rec();
