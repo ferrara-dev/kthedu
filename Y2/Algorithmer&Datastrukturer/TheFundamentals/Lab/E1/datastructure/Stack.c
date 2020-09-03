@@ -54,14 +54,15 @@ int isEmpty(Stack *self) {
     else
         return 0;
 }
+
 /**
-**
- * Implementation Construct function of @code{Stack} struct.
+ * Implementation of construct function used to
+ * create a pointer to a @code{Stack} struct.
  *
  * allocates the memory space for the stack and initialises
  * its variables.
  *
- * @return a pointer to the created node
+ * @return a pointer to the created stack
  */
 Stack *new_stack(){
     Stack *stack = malloc(sizeof(*stack));

@@ -1,55 +1,41 @@
 package operation;
 
-import io.InputReader;
-import io.OutputWriter;
-import operation.Operation;
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
 import stack.BasicStack;
 import stack.Stack;
 
-import java.io.IOException;
-
-public class IterativeOperation implements Operation {
+public class IterativeOperation implements ReadAndReverseOperation {
     private Stack<Character> stack = new BasicStack<>();
+
+    public IterativeOperation(){
+        System.out.println("Performing operation by iteration !");
+    }
 
     /**
      * Read one character at a time from standard input.
      *
      * Performs the operation by iteration.
-     * @param inputReader
      */
     @Override
-    public void readStdin(InputReader inputReader) {
-        try {
-            char c = inputReader.readChar();
-            while (charIsValid(c)) {
+    public void readStdin() {
+            char c;
+            while (!StdIn.isEmpty()) {
+                c = StdIn.readChar();
+                if(c =='\n')
+                    break;
                 stack.push(c);
-                c = inputReader.readChar();
             }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 
     /**
      * Write one character at a time to standard output
      *
      * Performs the operation by iteration
-     * @param outputWriter
      */
     @Override
-    public void writeStdout(OutputWriter outputWriter) {
-        for (Character c : stack) {
-            try {
-                outputWriter.putChar(c);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-    }
-
-    private boolean charIsValid(char c) {
-        if (c == (char) -1 || c == '\n')
-            return false;
-        return true;
+    public void writeStdout() {
+        for(Character c: stack)
+            StdOut.print(c);
     }
 }

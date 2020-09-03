@@ -96,7 +96,6 @@ public class QueueImpl<Item extends Comparable<Item>> implements Queue<Item> {
 
     /**
      * Enqueue a new item to the front-end of the list.
-     *
      * @param item
      */
     public void enqueue(Item item) {

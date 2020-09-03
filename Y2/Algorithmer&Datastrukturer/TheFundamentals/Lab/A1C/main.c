@@ -6,6 +6,7 @@
  * Check if a string has matching parentheses.
  * If the parentheses match, returns a pointer
  */
+
 /* Search a string for matching parentheses.
  * If the parentheses match, returns a pointer that addresses the nul terminator at the end of the string.
  * If they don't match, the pointer addresses the first character that doesn't match.

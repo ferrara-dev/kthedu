@@ -1,33 +1,58 @@
 #include <stdio.h>
 #include "datastructure/Stack.h"
 
-
-void run();
-
+void run_it();
+void run_rec();
 void readAndPrintReverse_rec();
+void readAndPrintReverse_it(Stack *stack);
 
-void readAndPrintReverse(Stack *stack);
 
-void printOutput(Stack *stack);
-
-void readStdin(Stack *stack);
+int checkCmdArg(char input[],char check[])
+{
+    int i,result=1;
+    for(i=0; input[i]!='\0' || check[i]!='\0'; i++) {
+        if(input[i] != check[i]) {
+            result=0;
+            break;
+        }
+    }
+    return result;
+}
 
 /**
  * Program that reads characters from standard input
  * and then prints them in reverse order to standard output.
  *
+ * If the first element in command line args equals to "rec"
+ * the operation will be performed using recursion
+ *
+ * else the task will be performed using iteration
  */
-int main() {
-    run();
+int main(int argc, char **args) {
+    if(argc > 1 && checkCmdArg(args[1],"rec"))
+        run_rec();
+    else
+        run_it();
+
     return 0;
 }
 
-void run() {
-    printf("==== Performing operation by recursion ====\n");
-    readAndPrintReverse_rec();
+/**
+ * Function to perform the operation by iteration.
+ *
+ */
+void run_it(){
     printf("\n==== Performing operation by iteration ====\n");
     Stack *stack = new_stack();
-    readAndPrintReverse(stack);
+    readAndPrintReverse_it(stack);
+}
+
+/**
+ * Function to perform the operation by recursion
+ */
+void run_rec(){
+    printf("==== Performing operation by recursion ====\n");
+    readAndPrintReverse_rec();
 }
 
 /**
@@ -64,7 +89,7 @@ void readAndPrintReverse_rec() {
  * The stack enforces the LIFO policy
  *
  */
-void readAndPrintReverse(Stack *stack) {
+void readAndPrintReverse_it(Stack *stack) {
     char c = getchar();
     while (c != EOF && c != '\n') {
         stack->push(stack, c);
@@ -74,24 +99,6 @@ void readAndPrintReverse(Stack *stack) {
     while (stack->isEmpty(stack) != 1) {
         char c = stack->pop(stack);
         putchar(c);
-    }
-}
-
-void printOutput(Stack *stack) {
-    while (stack->isEmpty(stack) != 1) {
-        char c = stack->pop(stack);
-        putchar(c);
-    }
-}
-
-/**
- * Iterativt
- */
-void readStdin(Stack *stack) {
-    char c = getchar();
-    while (c != EOF && c != '\n') {
-        stack->push(stack, c);
-        c = getchar();
     }
 }
 

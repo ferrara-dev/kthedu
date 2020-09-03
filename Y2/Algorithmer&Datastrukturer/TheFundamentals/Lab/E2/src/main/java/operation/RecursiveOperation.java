@@ -1,63 +1,51 @@
 package operation;
 
-import io.InputReader;
-import io.OutputWriter;
-import operation.Operation;
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
 import stack.BasicStack;
 import stack.Stack;
 
-import java.io.IOException;
-
-public class RecursiveOperation implements Operation {
+public class RecursiveOperation implements ReadAndReverseOperation {
     private Stack<Character> stack = new BasicStack<>();
 
-    public RecursiveOperation(){
+    public RecursiveOperation() {
         System.out.println("Recursive operation started !");
     }
 
     /**
      * Read one character at a time from standard input
-     *
+     * <p>
      * Performs the operation by recursion:
-     *
-     *  Base case : The char that is read from the stdin
-     *              equals -1 OR '\n' (new line character)
-     *
-     * @param inputReader
+     * <p>
+     * Base case : Stdin dosent have any more tokens to read OR '\n' (new line character)
+     *             is read.
      */
     @Override
-    public void readStdin(InputReader inputReader) throws IOException {
-        char c = inputReader.readChar();
-        if(charIsValid(c)){
-            stack.push(c);
-            readStdin(inputReader);
-        }
-        else
-            return;
-    }
-    /**
-     * Write one character at a time to standard output
-     *
-     * Performs the operation by recursion:
-     *
-     *  Base case : The stack that holds the character is empty
-     *
-     * @param outputWriter
-     */
-    @Override
-    public void writeStdout(OutputWriter outputWriter) throws IOException {
-        if(stack.isEmpty())
-            return;
-        else{
-            char c = stack.pop();
-            outputWriter.putChar(c);
-            writeStdout(outputWriter);
+    public void readStdin() {
+        if (!StdIn.isEmpty()){
+            char c = StdIn.readChar();
+            if (c != '\n') {
+                stack.push(c);
+                readStdin();
+            }
         }
     }
 
-    private boolean charIsValid(char c) {
-        if (c == (char) -1 || c == '\n')
-            return false;
-        return true;
+    /**
+     * Write one character at a time to standard output
+     * <p>
+     * Performs the operation by recursion:
+     * <p>
+     * Base case : The stack that holds the characters is empty
+     */
+    @Override
+    public void writeStdout() {
+        if (stack.isEmpty())
+            return;
+        else {
+            StdOut.print(stack.pop());
+            writeStdout();
+        }
     }
+
 }

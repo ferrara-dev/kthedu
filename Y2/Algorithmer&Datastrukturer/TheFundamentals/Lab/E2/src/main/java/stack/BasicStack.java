@@ -3,6 +3,8 @@ package stack;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+import java.util.Random;
+import java.util.Scanner;
 
 
 /**
@@ -24,10 +26,20 @@ public class BasicStack<Data> implements Stack<Data> {
     }
 
     /**
+     * Returns (but does not remove) the item most recently added to this stack.
+     *
+     * @return the item most recently added to this stack
+     * @throws NoSuchElementException if this stack is empty
+     */
+    public Data peek() {
+        if (isEmpty()) throw new NoSuchElementException("Stack underflow");
+        return head.data;
+    }
+
+    /**
      * Push a new element to the top of the stack.
      *
-     *
-     * @param data that is contained by the element.
+     * @param data that is added to the stack.
      */
     @Override
     public void push(Data data) {
@@ -41,17 +53,14 @@ public class BasicStack<Data> implements Stack<Data> {
      * Fetches data from element currently at the top of the stack,
      * goes on to remove the element and then returns the data.
      *
-     * @return the data that is contained by the element
-     * that is currently at the top of the stack.
+     * @return the element that was added most recently to the stack.
      *
-     * @throws NoSuchElementException if there is no element at the
-     *                                top of the stack.
+     * @throws NoSuchElementException if the stack is empty
      */
     @Override
     public Data pop() {
-        if (head == null) {
+        if (isEmpty())
             throw new NoSuchElementException("The list is empty");
-        }
 
         Data data = head.data;
         head = head.next;
@@ -153,43 +162,34 @@ public class BasicStack<Data> implements Stack<Data> {
 
     /**
      * Simple unit test.
-     * Test pushing integers to the stack and printing them and
-     * then goes on to removing them.
+     * Test pushing integers to the stack by entering "+" and
+     * popping them from the stack by entering "-"
      */
     private static class Test{
         public static void main(String ...args){
             Stack<Integer> stack = new BasicStack<>();
-            Integer ints [] = {5,3,6,1,-6};
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Enter + to push an element to the stack and - to pop an element from the stack");
+            for(int i = 0; i < 10; i++){
+                String line = scanner.nextLine();
 
-            System.out.println("Pushing elements to the stack...");
-            for(Integer integer : ints){
-                stack.push(integer);
+                if(line.equals("+")){
+                    System.out.println(i + " pushed to the stack");
+                    stack.push(i);
+                }
+
+                else if(line.equals("-")){
+                    if(stack.isEmpty()){
+                        System.out.println("You can not pop from an empty stack, try again");
+                        i -= 1;
+                        continue;
+                    }
+                    else {
+                        int p = stack.pop();
+                        System.out.println(p + " popped from the stack");
+                    }
+                }
                 stack.print();
-            }
-
-            if(stack.size() == 5)
-                System.out.println("The stack now has 5 elements ");
-            else
-                System.out.println("Something went wrong when updating the stack size ");
-
-            System.out.println("Popping elements from the stack...");
-            while (!stack.isEmpty()) {
-                stack.pop();
-                stack.print();
-            }
-
-            if(stack.isEmpty() && stack.size() == 0)
-                System.out.println("The stack is now empty !");
-            else
-                System.out.println("Something went wrong, the stack is not empty");
-
-            System.out.println("Testing the iterator.......");
-            for(Integer integer : ints){
-                stack.push(integer);
-            }
-
-            for(Integer integer: stack){
-                System.out.println(integer);
             }
         }
     }

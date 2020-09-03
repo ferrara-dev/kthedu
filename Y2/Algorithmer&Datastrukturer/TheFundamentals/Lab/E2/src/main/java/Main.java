@@ -1,15 +1,21 @@
-import io.InputReader;
-import io.OutputWriter;
+
 import operation.IterativeOperation;
 import operation.RecursiveOperation;
-import operation.Operation;
-
-import java.io.IOException;
+import operation.ReadAndReverseOperation;
 
 public class Main {
 
+    /**
+     * Main method that the program is run from
+     * If the first element in the command line argument equals
+     * "rec", the operation will be performed recursively, using .
+     * else
+     * it will perform the operation by iteration.
+     *
+     * @param args Command line argument
+     */
     public static void main(String... args) {
-        Operation app;
+        ReadAndReverseOperation app;
         if (args.length > 0 && args[0].equals("rec"))
             app = new RecursiveOperation();
 
@@ -19,13 +25,8 @@ public class Main {
         run(app);
     }
 
-    private static void run(Operation app) {
-        try {
-            app.readStdin(new InputReader(System.in));
-            app.writeStdout(new OutputWriter(System.out));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
+    private static void run(ReadAndReverseOperation app) {
+        app.readStdin();
+        app.writeStdout();
     }
 }
