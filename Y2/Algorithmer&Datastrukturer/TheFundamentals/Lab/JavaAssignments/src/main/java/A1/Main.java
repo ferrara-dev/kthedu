@@ -5,9 +5,15 @@ public class Main {
 
     public static void main(String...args){
         Parentheses parentheses = new ParenthesesRecursive();
+        long start = System.nanoTime();
         test(parentheses);
+        long stop = System.nanoTime();
+        System.out.println("ParenthesesRecursive "+(stop-start) );
         parentheses = new ParenthesesStack();
+        start = System.nanoTime();
         test(parentheses);
+        stop = System.nanoTime();
+        System.out.println("ParenthesesStack "+(stop-start) );
     }
 
     private static void test(Parentheses parentheses){

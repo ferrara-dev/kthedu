@@ -8,12 +8,15 @@ public class ParenthesesRecursive extends Parentheses {
     }
 
     private int checkBalanced(int n){
-        if(n >= super.expression.length() -1  || super.isClosing(super.expression.charAt(n)))
+        if(n > super.expression.length()-1){
             return n;
-        if(isOpening(super.expression.charAt(n))){
+        }
+        else if(super.isClosing(super.expression.charAt(n)))
+            return n;
+        else if(isOpening(super.expression.charAt(n))){
             char c = super.findMatchingClosing(super.expression.charAt(n));
             int i = checkBalanced(n +1);
-            if(super.expression.charAt(i) == c){
+            if(i<super.expression.length() && super.expression.charAt(i) == c){
                 return checkBalanced(i+1);
             }
             else {
