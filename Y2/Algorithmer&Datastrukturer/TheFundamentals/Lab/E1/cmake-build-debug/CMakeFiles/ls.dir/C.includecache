@@ -6,23 +6,3 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/root/Desktop/kthedu/Y2/Algorithmer&Datastrukturer/TheFundamentals/Lab/E1/datastructure/Node.h
-stdlib.h
--
-
-C:/Users/root/Desktop/kthedu/Y2/Algorithmer&Datastrukturer/TheFundamentals/Lab/E1/datastructure/Stack.c
-stdio.h
--
-Stack.h
-C:/Users/root/Desktop/kthedu/Y2/Algorithmer&Datastrukturer/TheFundamentals/Lab/E1/datastructure/Stack.h
-
-C:/Users/root/Desktop/kthedu/Y2/Algorithmer&Datastrukturer/TheFundamentals/Lab/E1/datastructure/Stack.h
-Node.h
-C:/Users/root/Desktop/kthedu/Y2/Algorithmer&Datastrukturer/TheFundamentals/Lab/E1/datastructure/Node.h
-
-C:/Users/root/Desktop/kthedu/Y2/Algorithmer&Datastrukturer/TheFundamentals/Lab/E1/main.c
-stdio.h
--
-datastructure/Stack.h
-C:/Users/root/Desktop/kthedu/Y2/Algorithmer&Datastrukturer/TheFundamentals/Lab/E1/datastructure/Stack.h
-

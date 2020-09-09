@@ -122,86 +122,32 @@ ls/fast:
 	$(MAKE) -f CMakeFiles\ls.dir\build.make CMakeFiles/ls.dir/build
 .PHONY : ls/fast
 
-datastructure/Node.obj: datastructure/Node.c.obj
+Assignment1Main.obj: Assignment1Main.c.obj
 
-.PHONY : datastructure/Node.obj
-
-# target to build an object file
-datastructure/Node.c.obj:
-	$(MAKE) -f CMakeFiles\ls.dir\build.make CMakeFiles/ls.dir/datastructure/Node.c.obj
-.PHONY : datastructure/Node.c.obj
-
-datastructure/Node.i: datastructure/Node.c.i
-
-.PHONY : datastructure/Node.i
-
-# target to preprocess a source file
-datastructure/Node.c.i:
-	$(MAKE) -f CMakeFiles\ls.dir\build.make CMakeFiles/ls.dir/datastructure/Node.c.i
-.PHONY : datastructure/Node.c.i
-
-datastructure/Node.s: datastructure/Node.c.s
-
-.PHONY : datastructure/Node.s
-
-# target to generate assembly for a file
-datastructure/Node.c.s:
-	$(MAKE) -f CMakeFiles\ls.dir\build.make CMakeFiles/ls.dir/datastructure/Node.c.s
-.PHONY : datastructure/Node.c.s
-
-datastructure/Stack.obj: datastructure/Stack.c.obj
-
-.PHONY : datastructure/Stack.obj
+.PHONY : Assignment1Main.obj
 
 # target to build an object file
-datastructure/Stack.c.obj:
-	$(MAKE) -f CMakeFiles\ls.dir\build.make CMakeFiles/ls.dir/datastructure/Stack.c.obj
-.PHONY : datastructure/Stack.c.obj
+Assignment1Main.c.obj:
+	$(MAKE) -f CMakeFiles\ls.dir\build.make CMakeFiles/ls.dir/Assignment1Main.c.obj
+.PHONY : Assignment1Main.c.obj
 
-datastructure/Stack.i: datastructure/Stack.c.i
+Assignment1Main.i: Assignment1Main.c.i
 
-.PHONY : datastructure/Stack.i
-
-# target to preprocess a source file
-datastructure/Stack.c.i:
-	$(MAKE) -f CMakeFiles\ls.dir\build.make CMakeFiles/ls.dir/datastructure/Stack.c.i
-.PHONY : datastructure/Stack.c.i
-
-datastructure/Stack.s: datastructure/Stack.c.s
-
-.PHONY : datastructure/Stack.s
-
-# target to generate assembly for a file
-datastructure/Stack.c.s:
-	$(MAKE) -f CMakeFiles\ls.dir\build.make CMakeFiles/ls.dir/datastructure/Stack.c.s
-.PHONY : datastructure/Stack.c.s
-
-main.obj: main.c.obj
-
-.PHONY : main.obj
-
-# target to build an object file
-main.c.obj:
-	$(MAKE) -f CMakeFiles\ls.dir\build.make CMakeFiles/ls.dir/main.c.obj
-.PHONY : main.c.obj
-
-main.i: main.c.i
-
-.PHONY : main.i
+.PHONY : Assignment1Main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles\ls.dir\build.make CMakeFiles/ls.dir/main.c.i
-.PHONY : main.c.i
+Assignment1Main.c.i:
+	$(MAKE) -f CMakeFiles\ls.dir\build.make CMakeFiles/ls.dir/Assignment1Main.c.i
+.PHONY : Assignment1Main.c.i
 
-main.s: main.c.s
+Assignment1Main.s: Assignment1Main.c.s
 
-.PHONY : main.s
+.PHONY : Assignment1Main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles\ls.dir\build.make CMakeFiles/ls.dir/main.c.s
-.PHONY : main.c.s
+Assignment1Main.c.s:
+	$(MAKE) -f CMakeFiles\ls.dir\build.make CMakeFiles/ls.dir/Assignment1Main.c.s
+.PHONY : Assignment1Main.c.s
 
 # Help Target
 help:
@@ -212,15 +158,9 @@ help:
 	@echo ... edit_cache
 	@echo ... ls
 	@echo ... rebuild_cache
-	@echo ... datastructure/Node.obj
-	@echo ... datastructure/Node.i
-	@echo ... datastructure/Node.s
-	@echo ... datastructure/Stack.obj
-	@echo ... datastructure/Stack.i
-	@echo ... datastructure/Stack.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... Assignment1Main.obj
+	@echo ... Assignment1Main.i
+	@echo ... Assignment1Main.s
 .PHONY : help
 
 

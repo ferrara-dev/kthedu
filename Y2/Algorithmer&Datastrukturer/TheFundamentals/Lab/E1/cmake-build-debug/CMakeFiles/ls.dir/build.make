@@ -56,62 +56,32 @@ include CMakeFiles/ls.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ls.dir/flags.make
 
-CMakeFiles/ls.dir/main.c.obj: CMakeFiles/ls.dir/flags.make
-CMakeFiles/ls.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\root\Desktop\kthedu\Y2\Algorithmer&Datastrukturer\TheFundamentals\Lab\E1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ls.dir/main.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ls.dir\main.c.obj   -c "C:\Users\root\Desktop\kthedu\Y2\Algorithmer&Datastrukturer\TheFundamentals\Lab\E1\main.c"
+CMakeFiles/ls.dir/Assignment1Main.c.obj: CMakeFiles/ls.dir/flags.make
+CMakeFiles/ls.dir/Assignment1Main.c.obj: ../Assignment1Main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\root\Desktop\kthedu\Y2\Algorithmer&Datastrukturer\TheFundamentals\Lab\E1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ls.dir/Assignment1Main.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ls.dir\Assignment1Main.c.obj   -c "C:\Users\root\Desktop\kthedu\Y2\Algorithmer&Datastrukturer\TheFundamentals\Lab\E1\Assignment1Main.c"
 
-CMakeFiles/ls.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ls.dir/main.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\root\Desktop\kthedu\Y2\Algorithmer&Datastrukturer\TheFundamentals\Lab\E1\main.c" > CMakeFiles\ls.dir\main.c.i
+CMakeFiles/ls.dir/Assignment1Main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ls.dir/Assignment1Main.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\root\Desktop\kthedu\Y2\Algorithmer&Datastrukturer\TheFundamentals\Lab\E1\Assignment1Main.c" > CMakeFiles\ls.dir\Assignment1Main.c.i
 
-CMakeFiles/ls.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ls.dir/main.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\root\Desktop\kthedu\Y2\Algorithmer&Datastrukturer\TheFundamentals\Lab\E1\main.c" -o CMakeFiles\ls.dir\main.c.s
-
-CMakeFiles/ls.dir/datastructure/Node.c.obj: CMakeFiles/ls.dir/flags.make
-CMakeFiles/ls.dir/datastructure/Node.c.obj: ../datastructure/Node.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\root\Desktop\kthedu\Y2\Algorithmer&Datastrukturer\TheFundamentals\Lab\E1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ls.dir/datastructure/Node.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ls.dir\datastructure\Node.c.obj   -c "C:\Users\root\Desktop\kthedu\Y2\Algorithmer&Datastrukturer\TheFundamentals\Lab\E1\datastructure\Node.c"
-
-CMakeFiles/ls.dir/datastructure/Node.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ls.dir/datastructure/Node.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\root\Desktop\kthedu\Y2\Algorithmer&Datastrukturer\TheFundamentals\Lab\E1\datastructure\Node.c" > CMakeFiles\ls.dir\datastructure\Node.c.i
-
-CMakeFiles/ls.dir/datastructure/Node.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ls.dir/datastructure/Node.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\root\Desktop\kthedu\Y2\Algorithmer&Datastrukturer\TheFundamentals\Lab\E1\datastructure\Node.c" -o CMakeFiles\ls.dir\datastructure\Node.c.s
-
-CMakeFiles/ls.dir/datastructure/Stack.c.obj: CMakeFiles/ls.dir/flags.make
-CMakeFiles/ls.dir/datastructure/Stack.c.obj: ../datastructure/Stack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\root\Desktop\kthedu\Y2\Algorithmer&Datastrukturer\TheFundamentals\Lab\E1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ls.dir/datastructure/Stack.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ls.dir\datastructure\Stack.c.obj   -c "C:\Users\root\Desktop\kthedu\Y2\Algorithmer&Datastrukturer\TheFundamentals\Lab\E1\datastructure\Stack.c"
-
-CMakeFiles/ls.dir/datastructure/Stack.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ls.dir/datastructure/Stack.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\root\Desktop\kthedu\Y2\Algorithmer&Datastrukturer\TheFundamentals\Lab\E1\datastructure\Stack.c" > CMakeFiles\ls.dir\datastructure\Stack.c.i
-
-CMakeFiles/ls.dir/datastructure/Stack.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ls.dir/datastructure/Stack.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\root\Desktop\kthedu\Y2\Algorithmer&Datastrukturer\TheFundamentals\Lab\E1\datastructure\Stack.c" -o CMakeFiles\ls.dir\datastructure\Stack.c.s
+CMakeFiles/ls.dir/Assignment1Main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ls.dir/Assignment1Main.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\root\Desktop\kthedu\Y2\Algorithmer&Datastrukturer\TheFundamentals\Lab\E1\Assignment1Main.c" -o CMakeFiles\ls.dir\Assignment1Main.c.s
 
 # Object files for target ls
 ls_OBJECTS = \
-"CMakeFiles/ls.dir/main.c.obj" \
-"CMakeFiles/ls.dir/datastructure/Node.c.obj" \
-"CMakeFiles/ls.dir/datastructure/Stack.c.obj"
+"CMakeFiles/ls.dir/Assignment1Main.c.obj"
 
 # External object files for target ls
 ls_EXTERNAL_OBJECTS =
 
-ls.exe: CMakeFiles/ls.dir/main.c.obj
-ls.exe: CMakeFiles/ls.dir/datastructure/Node.c.obj
-ls.exe: CMakeFiles/ls.dir/datastructure/Stack.c.obj
+ls.exe: CMakeFiles/ls.dir/Assignment1Main.c.obj
 ls.exe: CMakeFiles/ls.dir/build.make
 ls.exe: CMakeFiles/ls.dir/linklibs.rsp
 ls.exe: CMakeFiles/ls.dir/objects1.rsp
 ls.exe: CMakeFiles/ls.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\root\Desktop\kthedu\Y2\Algorithmer&Datastrukturer\TheFundamentals\Lab\E1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable ls.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\root\Desktop\kthedu\Y2\Algorithmer&Datastrukturer\TheFundamentals\Lab\E1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ls.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ls.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

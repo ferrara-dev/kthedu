@@ -1,3 +1,0 @@
-C:/Users/root/Desktop/kthedu/Y2/Algorithmer&Datastrukturer/TheFundamentals/Lab/A1C/cmake-build-debug/CMakeFiles/A1C.dir
-C:/Users/root/Desktop/kthedu/Y2/Algorithmer&Datastrukturer/TheFundamentals/Lab/A1C/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/root/Desktop/kthedu/Y2/Algorithmer&Datastrukturer/TheFundamentals/Lab/A1C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

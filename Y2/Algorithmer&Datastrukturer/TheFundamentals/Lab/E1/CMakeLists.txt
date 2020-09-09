@@ -4,9 +4,5 @@ project(E1 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(ls main.c
-        datastructure/Node.h
-        datastructure/Node.c
-        datastructure/Stack.c
-        datastructure/Stack.h
+add_executable(ls Assignment1Main.c
         )

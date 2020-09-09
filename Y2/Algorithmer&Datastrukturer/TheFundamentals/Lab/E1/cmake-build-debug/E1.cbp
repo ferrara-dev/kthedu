@@ -74,19 +74,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/root/Desktop/kthedu/Y2/Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/datastructure/Node.c">
-			<Option target="ls"/>
-		</Unit>
-		<Unit filename="C:/Users/root/Desktop/kthedu/Y2/Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/datastructure/Node.h">
-			<Option target="ls"/>
-		</Unit>
-		<Unit filename="C:/Users/root/Desktop/kthedu/Y2/Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/datastructure/Stack.c">
-			<Option target="ls"/>
-		</Unit>
-		<Unit filename="C:/Users/root/Desktop/kthedu/Y2/Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/datastructure/Stack.h">
-			<Option target="ls"/>
-		</Unit>
-		<Unit filename="C:/Users/root/Desktop/kthedu/Y2/Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/main.c">
+		<Unit filename="C:/Users/root/Desktop/kthedu/Y2/Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/Assignment1Main.c">
 			<Option target="ls"/>
 		</Unit>
 		<Unit filename="C:/Users/root/Desktop/kthedu/Y2/Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/CMakeLists.txt">

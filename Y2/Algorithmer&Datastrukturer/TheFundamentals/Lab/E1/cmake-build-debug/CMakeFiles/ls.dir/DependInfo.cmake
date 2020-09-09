@@ -4,9 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/root/Desktop/kthedu/Y2/Algorithmer&Datastrukturer/TheFundamentals/Lab/E1/datastructure/Node.c" "C:/Users/root/Desktop/kthedu/Y2/Algorithmer&Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/ls.dir/datastructure/Node.c.obj"
-  "C:/Users/root/Desktop/kthedu/Y2/Algorithmer&Datastrukturer/TheFundamentals/Lab/E1/datastructure/Stack.c" "C:/Users/root/Desktop/kthedu/Y2/Algorithmer&Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/ls.dir/datastructure/Stack.c.obj"
-  "C:/Users/root/Desktop/kthedu/Y2/Algorithmer&Datastrukturer/TheFundamentals/Lab/E1/main.c" "C:/Users/root/Desktop/kthedu/Y2/Algorithmer&Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/ls.dir/main.c.obj"
+  "C:/Users/root/Desktop/kthedu/Y2/Algorithmer&Datastrukturer/TheFundamentals/Lab/E1/Assignment1Main.c" "C:/Users/root/Desktop/kthedu/Y2/Algorithmer&Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/ls.dir/Assignment1Main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

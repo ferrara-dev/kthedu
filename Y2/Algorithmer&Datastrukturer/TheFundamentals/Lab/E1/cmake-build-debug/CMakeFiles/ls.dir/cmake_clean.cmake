@@ -1,7 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ls.dir/datastructure/Node.c.obj"
-  "CMakeFiles/ls.dir/datastructure/Stack.c.obj"
-  "CMakeFiles/ls.dir/main.c.obj"
+  "CMakeFiles/ls.dir/Assignment1Main.c.obj"
   "libls.dll.a"
   "ls.exe"
   "ls.exe.manifest"
