@@ -2,6 +2,9 @@ package balancedparentheses;
 
 import java.util.NoSuchElementException;
 
+/**
+ * Part of solution for balanced parentheses problem
+ */
 public class CharStack {
     private Node head;
     private Integer size;

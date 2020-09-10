@@ -13,8 +13,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class InputInterpreter {
-    private Stack<String> valueStack = new BasicStack<>();
-    private Stack<String> commandStack = new BasicStack<>();
     private String delimiters;
     private Pattern pattern = Pattern.compile("(\\d+)?(f[\\+-]|l[\\+-])");
 

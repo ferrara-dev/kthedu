@@ -9,6 +9,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Solution for Parentheses problem
+ */
 public class Parentheses {
     protected String expression;
     protected final Map<Character, Character> bracketMap;
