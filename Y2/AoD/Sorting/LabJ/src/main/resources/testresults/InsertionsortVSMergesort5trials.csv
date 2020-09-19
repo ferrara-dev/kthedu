@@ -1,0 +1,8 @@
+Number of elements (N),InsertionSort,MergeSort(with NO Cut off)
+1000,19,3
+2000,24,4
+4000,32,4
+8000,123,2
+16000,556,6
+32000,2083,13
+64000,6195,21

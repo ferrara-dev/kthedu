@@ -1,0 +1,8 @@
+Number of elements (N);Time for MergeSort algorithm (ns);Time for InsertionSort algorithm (ns)
+2;20700.0;7600.0
+4;5100.0;2100.0
+8;5700.0;4400.0
+16;10900.0;6000.0
+32;20900.0;26600.0
+64;46700.0;157600.0
+128;119300.0;454600.0
