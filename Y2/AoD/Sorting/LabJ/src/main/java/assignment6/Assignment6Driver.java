@@ -25,32 +25,48 @@ public class Assignment6Driver {
     }
 
     private static void doublingTest() {
-        Sort mergeSort = new MergeSort(7,false);
-        Sort cutoff9 = new MergeSort(50, false);
-        List<String> headers = Arrays.asList("N", mergeSort.toString(),  cutoff9.toString());
+        Sort mergeSort = new MergeSort(30,false);
+        Sort cutoff30 = new MergeSort(13,false);
+        Sort noCutoff = new MergeSort(0,false);
+        Sort cutoff50 = new MergeSort(1000, false);
+
+        List<String> headers = Arrays.asList("N", mergeSort.toString(), cutoff30.toString(), cutoff50.toString(), noCutoff.toString());
         List<String> row = new ArrayList<>();
         ConsoleTable consoleTable = new ConsoleTable(headers);
-        for (int N = 10000; N < 1000000; N +=N*0.5) {
+        for (int N = 0; N < 1; N++) {
             row = new ArrayList<>();
-            row.add(String.valueOf(N));
+            row.add(String.valueOf(10000000));
+            row.add("");
+            row.add("");
             row.add("");
             row.add("");
             consoleTable.addRow(row);
         }
+
         int i = 0;
-        for (int N = 10000; N < 1000000; N += N*0.5,i++) {
+        for (int N = 0; N < 1; N ++,i++) {
             double totalTime = 0.0;
-            totalTime = AlgorithmCompare.timeRandomInputTotal(mergeSort, N, 5);
+            totalTime = AlgorithmCompare.timeRandomInputTotal(mergeSort, 10000000 , 1);
             consoleTable.updateField(i,1,String.valueOf(totalTime));
         }
+
         i = 0;
 
-        for (int N = 10000; N < 1000000; N += N*0.5,i++) {
+        for (int N = 0; N < 1; N ++,i++) {
             double totalTime = 0.0;
-            totalTime = AlgorithmCompare.timeRandomInputTotal(cutoff9, N, 5);
+            totalTime = AlgorithmCompare.timeRandomInputTotal(cutoff30, 10000000 , 1);
             consoleTable.updateField(i,2,String.valueOf(totalTime));
         }
 
+        i = 0;
+
+        for (int N = 0; N < 1; N ++,i++) {
+            double totalTime = 0.0;
+            totalTime = AlgorithmCompare.timeRandomInputTotal(cutoff50, 10000000 , 1);
+            consoleTable.updateField(i,3,String.valueOf(totalTime));
+        }
+
+        
         consoleTable.printTable();
     }
 

@@ -1,8 +1,11 @@
 package assignment6;
 
+import assignment3.Merge;
 import common.AlgorithmCompare;
 import common.Sort;
 import mergesort.MergeSort;
+import util.StdRandom;
+import util.stopwatch.StopwatchUnit;
 
 import java.util.*;
 
@@ -35,30 +38,22 @@ import java.util.*;
  * </Answer>
  */
 public class Assignment6 {
-    private static Set<Sort> sorts;
-    private static Map<String, List<Double>> executionTimes = new LinkedHashMap<>();
+    private static int problemSize = 10000;
+    public static void main(String... args) {
+        int[] randomArray = StdRandom.randomInts(problemSize, -1, 1);
+        Sort merge = new MergeSort(0);
+        Sort[] mergeSorts = new MergeSort[2];
+        mergeSorts[0] = merge;
+        mergeSorts[1] = new MergeSort(11);
 
-    static {
-        sorts = new LinkedHashSet<>();
-        for (int i = 0; i < 30; i++) {
-            Sort sort = new MergeSort(i + 1, false);
-            sorts.add(sort);
-            executionTimes.put(sort.toString(), new ArrayList<>());
-        }
-    }
-
-    public static void main(String...args){
-        run();
-    }
-
-    private static void run(){
-        int trials = 10;
-        for(int N = 100000; N < 1000000; N += 100000) {
-            for (Sort sort : sorts) {
-                double timeForTrials = AlgorithmCompare.timeRandomInputTotal(sort, N,trials);
-                executionTimes.get(sort.toString()).add(timeForTrials);
+        for (Sort sort : mergeSorts) {
+            double time = 0.0;
+            for (int i = 0; i < 100; i++) {
+                time += AlgorithmCompare.time(sort, randomArray.clone(), StopwatchUnit.MILLI);
             }
+            System.out.println(sort.toString() + " N=" + problemSize + " --> " + time + "ms");
         }
     }
+
 
 }

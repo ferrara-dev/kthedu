@@ -44,7 +44,7 @@ public class MergeSort implements Sort {
             insertionSort(aux, lowerBound, upperBound);
             return;
         }
-        
+
         int mid = lowerBound + (upperBound - lowerBound) / 2; // Find middle point of range
         sort(aux, arrayToSort, lowerBound, mid); // Sort the left half
         sort(aux, arrayToSort, mid + 1, upperBound); // Sort the right half

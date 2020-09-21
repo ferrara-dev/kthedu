@@ -52,16 +52,9 @@ import java.util.List;
 public class Assignment5E {
 
     public void insertionVSMergeRandomArrays(int lowerBounds, int upperBounds, int trials){
-
         Sort insertionSort = new InsertionSort(false);
         Sort mergeSort = new MergeSort(false);
 
-        TestResult res = ComparisonService.runAlgorithmTest(lowerBounds, upperBounds, trials, insertionSort,mergeSort);
-        res.setDescription("Insertion sort VS Merge sort 5 trials");
-        ComparisonService.printResult(res);
-        ComparisonService.saveResult(res);
-
-/*
         List<String> headers = Arrays.asList("N", insertionSort.toString(), mergeSort.toString());
         ConsoleTable consoleTable = new ConsoleTable(headers);
 
@@ -75,8 +68,6 @@ public class Assignment5E {
             consoleTable.addRow(resultTableRow);
         }
         consoleTable.printTable();
-
- */
     }
 
     public void insertionDescendingVSInsertionAscending(int lowerBounds, int upperBounds,int trials){
