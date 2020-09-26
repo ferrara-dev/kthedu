@@ -6,6 +6,11 @@ import util.List;
 
 import java.util.Scanner;
 
+/***
+ * TODO:
+ * Write a program that shows how evenly the built-in hashcode() function for strings in
+ * Java distributes the hashcodes for the words found in the text. (Hint it may be hard to use the hashcodes directly...)
+ */
 public class Assignment3 {
     private static BinarySearchTree<Integer, List<String>> hashWordMap = new BinarySearchTree<Integer, List<String>>();
 
