@@ -1,0 +1,3 @@
+C:/Users/root/Desktop/kthedu/Y2/AoD/Sorting/LabC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/root/Desktop/kthedu/Y2/AoD/Sorting/LabC/cmake-build-debug/CMakeFiles/LabC.dir
+C:/Users/root/Desktop/kthedu/Y2/AoD/Sorting/LabC/cmake-build-debug/CMakeFiles/edit_cache.dir

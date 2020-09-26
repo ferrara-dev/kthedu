@@ -1,0 +1,3 @@
+C:/Users/root/Desktop/kthedu/Y2/Algorithmer&Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/root/Desktop/kthedu/Y2/Algorithmer&Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/ls.dir
+C:/Users/root/Desktop/kthedu/Y2/Algorithmer&Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/rebuild_cache.dir
