@@ -1,9 +1,14 @@
 package datastruct.st;
 
-import Assignment1.TextFilter;
+import Assignment3.HashDistribution;
 import datastruct.List;
-import org.w3c.dom.Text;
-import util.StdIn;
+import datastruct.set.SET;
+import org.knowm.xchart.SwingWrapper;
+import org.knowm.xchart.XYChart;
+import org.knowm.xchart.XYChartBuilder;
+import org.knowm.xchart.style.Styler;
+
+import java.util.ArrayList;
 
 /**
  * A symbol table implemented with a separate-chaining hash table.
@@ -16,18 +21,26 @@ public class LinkedHashTable<Key, Value> implements ST<Key, Value> {
     private int N = 0; // number of key-value pairs
     private Entry[] entries = new Entry[M];
 
-    private static class Entry {
+    protected static class Entry {
         private Object key;
         private Object value;
         private Entry next;
-        int numberOfKeysAtTimeOfInsert;
+        int currentChainSize;
 
-        Entry(Object key, Object value, Entry node, int numberOfKeysAtTimeOfInsert) {
-            this.numberOfKeysAtTimeOfInsert = numberOfKeysAtTimeOfInsert;
+        Entry(Object key, Object value, Entry node, int currentChainSize) {
+            this.currentChainSize = currentChainSize;
             this.key = key;
             this.value = value;
             next = node;
         }
+
+        public int getChainSize() {
+            return currentChainSize;
+        }
+    }
+
+    protected int getM() {
+        return M;
     }
 
     /**
@@ -53,7 +66,7 @@ public class LinkedHashTable<Key, Value> implements ST<Key, Value> {
      *
      * @param chains
      */
-    private void resize(int chains) {
+    protected void resize(int chains) {
         LinkedHashTable<Key, Value> temp = new LinkedHashTable<Key, Value>(chains);
         for (int i = 0; i < M; i++) {
             for (Entry x = entries[i]; x != null; x = x.next) {
@@ -130,7 +143,7 @@ public class LinkedHashTable<Key, Value> implements ST<Key, Value> {
         }
 
         N++;
-        entries[hash] = new Entry(key, value, entries[hash], count);
+        entries[hash] = new Entry(key, value, entries[hash], count + 1);
     }
 
     /**
@@ -198,12 +211,11 @@ public class LinkedHashTable<Key, Value> implements ST<Key, Value> {
 
     @Override
     public Iterable<Key> keys() {
-
         return null;
     }
 
 
-    Iterable<Entry> entries() {
+    public Iterable<Entry> entries() {
         List<Entry> entries = new List<>();
         for (int i = 0; i < M; i++) {
             if (this.entries[i] != null)
@@ -220,9 +232,73 @@ public class LinkedHashTable<Key, Value> implements ST<Key, Value> {
         return (x.hashCode() & 0x7fffffff) % M;
     }
 
+    protected int chainLengthAt(int index){
+        if(entries[index] != null)
+            return entries[index].getChainSize();
+        else
+            return 0;
+    }
+
     private static class LinkedHashTableTester {
         public static void main(String... args) {
+            LinkedHashTable<String, Integer> map = new LinkedHashTable<>();
+            SET<String> distinctWords = new SET<>();
+            HashDistribution.collectWords(map);
+            System.out.println(map.N);
+            long sum = sum(map);
+
+
+            double mean = (double) sum / (double) map.entries.length;
+            System.out.println(sum);
+            System.out.println(map.size());
+
+            System.out.println("Mean: " + mean);
+
+            double variance = 0;
+
+            for (int i = 0; i < map.entries.length; i++) {
+                if (map.entries[i] != null)
+                    variance += Math.pow((double) map.entries[i].currentChainSize - mean, 2.0);
+            }
+
+            double std = Math.sqrt(variance / (double) map.entries.length);
+            System.out.println("Standard Deviation: " + std);
+            plot(map);
 
         }
+
+        private static void plot(LinkedHashTable<String, Integer> map){
+            XYChart chart = new XYChartBuilder().width(800).
+                    height(600).
+                    theme(Styler.ChartTheme.Matlab).
+                    title("Hash distribution").
+                    xAxisTitle("hash indices").
+                    yAxisTitle("chain length/collisions").
+                    build();
+            chart.getStyler().setPlotGridLinesVisible(false);
+            chart.getStyler().setXAxisTickMarkSpacingHint(100);
+
+            java.util.List<Integer> xAxis = new ArrayList<>(); // hashes
+            java.util.List<Integer> yAxis = new ArrayList<>(); // chainLength
+
+            for (int i = 0; i < map.M; i++) {
+                xAxis.add(i);
+                yAxis.add(map.chainLengthAt(i));
+            }
+
+            chart.addSeries("Gaussian 1", xAxis, yAxis);
+            // XYChart chart = QuickChart.getChart("Hash function spread", "Hash", "Collisions", "spread", hashes, collisions); // Create Chart
+            new SwingWrapper(chart).displayChart(); // Show it
+        }
+
+        private static long sum(LinkedHashTable<String, Integer> map) {
+            long sum = 0;
+            for (int i = 0; i < map.entries.length; i++) {
+                    sum += map.chainLengthAt(i);
+                    System.out.println("Bucket " + i + ": " + map.chainLengthAt(i));
+            }
+            return sum;
+        }
+
     }
 }

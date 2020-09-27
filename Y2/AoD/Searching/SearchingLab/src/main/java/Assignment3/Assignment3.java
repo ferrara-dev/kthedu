@@ -23,13 +23,14 @@ import java.util.Scanner;
  */
 public class Assignment3 {
     private static BinarySearchTree<Integer, List<String>> hashCodeToWordMap = new BinarySearchTree<Integer, List<String>>();
-    private static BinarySearchTree<Integer, Integer> hashCodeDistributionMap = new BinarySearchTree<>();
     private static SET<String> distinctWords = new SET<>();
     private static TextFilter textFilter = new TextFilter();
 
 
     public static void main(String... args) {
         visualizeHashDistribution();
+
+
     }
 
     public static void visualizeHashDistribution() {
@@ -76,4 +77,6 @@ public class Assignment3 {
         System.out.println(distinct);
         System.out.println(distinctWords.size());
     }
+
+
 }
