@@ -1,6 +1,7 @@
 package Assignment2;
 
-import java.util.Scanner;
+import datastruct.st.BinarySearchTree;
+import datastruct.st.ST;
 
 public class FrequencyCounter {
     private final ST<String, Integer> symbolMap;

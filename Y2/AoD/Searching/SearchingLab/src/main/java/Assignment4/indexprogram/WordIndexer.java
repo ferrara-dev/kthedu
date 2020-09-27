@@ -1,8 +1,8 @@
 package Assignment4.indexprogram;
 
 import Assignment1.TextFilter;
-import Assignment2.ST;
-import Assignment4.hash.LinkedHashTable;
+import datastruct.st.ST;
+import datastruct.st.LinkedHashTable;
 
 import java.util.ArrayList;
 import java.util.List;

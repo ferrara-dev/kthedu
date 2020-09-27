@@ -1,6 +1,6 @@
 package theoryassignment1;
 
-import Assignment2.BinarySearchTree;
+import datastruct.st.BinarySearchTree;
 
 public class BST {
     private static final char [] characters = {'W','O','E','C','A','L','H'};

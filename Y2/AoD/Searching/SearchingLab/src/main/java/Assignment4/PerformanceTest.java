@@ -1,8 +1,7 @@
 package Assignment4;
 
-import Assignment2.BinarySearchTree;
-import Assignment2.ST;
-import Assignment4.hash.LinkedHashTable;
+import datastruct.st.BinarySearchTree;
+import datastruct.st.LinkedHashTable;
 import Assignment4.indexprogram.WordIndexInterface;
 import Assignment4.indexprogram.WordIndexer;
 import Assignment4.indexprogram.JavaWordIndexer;

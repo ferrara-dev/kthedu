@@ -1,6 +1,6 @@
 package Assignment4.indexprogram;
 
-import Assignment4.hash.LinkedHashTable;
+import datastruct.st.LinkedHashTable;
 import util.Stopwatch;
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;

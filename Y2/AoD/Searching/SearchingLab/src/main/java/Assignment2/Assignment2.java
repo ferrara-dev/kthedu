@@ -1,5 +1,9 @@
 package Assignment2;
 
+import datastruct.st.BinarySearchSymbolTable;
+import datastruct.st.BinarySearchTree;
+import datastruct.st.ST;
+import datastruct.st.SequentialSearchST;
 import util.Stopwatch;
 
 import java.io.FileNotFoundException;

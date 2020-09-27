@@ -1,4 +1,4 @@
-import Assignment4.hash.LinkedHashTable;
+import datastruct.st.LinkedHashTable;
 import Assignment4.indexprogram.WordIndexer;
 import org.junit.Assert;
 import org.junit.Before;

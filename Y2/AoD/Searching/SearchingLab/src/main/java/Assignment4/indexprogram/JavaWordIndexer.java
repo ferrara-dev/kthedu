@@ -1,6 +1,6 @@
 package Assignment4.indexprogram;
 
-import Assignment4.hash.LinkedHashTable;
+import datastruct.st.LinkedHashTable;
 
 import java.util.ArrayList;
 import java.util.List;
