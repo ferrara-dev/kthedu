@@ -1,6 +1,6 @@
 package datastruct.st;
 
-import Assignment3.HashDistribution;
+import Assignment3.Assignment3;
 import datastruct.List;
 import datastruct.set.SET;
 import org.knowm.xchart.SwingWrapper;
@@ -243,7 +243,7 @@ public class LinkedHashTable<Key, Value> implements ST<Key, Value> {
         public static void main(String... args) {
             LinkedHashTable<String, Integer> map = new LinkedHashTable<>();
             SET<String> distinctWords = new SET<>();
-            HashDistribution.collectWords(map);
+            Assignment3.collectWords(map);
             System.out.println(map.N);
             long sum = sum(map);
 

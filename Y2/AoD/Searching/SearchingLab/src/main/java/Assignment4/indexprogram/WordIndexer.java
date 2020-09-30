@@ -13,7 +13,6 @@ public class WordIndexer implements WordIndexInterface {
     private List<String> lines;
     private int charCount;
     private TextFilter textFilter;
-    private String text = "";
 
     public WordIndexer(ST<String, List<Integer>> map) {
         this.wordPositionMap = map;
@@ -24,14 +23,12 @@ public class WordIndexer implements WordIndexInterface {
     public void loadText(Scanner scanner) {
         while (scanner.hasNextLine()) {
             String line = scanner.nextLine().toUpperCase().toLowerCase();
-            this.text += line + "\n";
             lines.add(textFilter.filterText(line + "\n"));
         }
         setUp();
     }
 
     public void loadText(String text) {
-        this.text = textFilter.filterText(text);
         text = textFilter.filterText(text);
         String[] lines = text.split("\\r?\\n");
         for (String line : lines)
@@ -91,16 +88,6 @@ public class WordIndexer implements WordIndexInterface {
         wordPositionMap.get(word).add(pos + charCount);
 
         return word.length();
-    }
-
-    public boolean assertEq(String word, int pos) {
-        int count = pos;
-        for (int i = 0; i < word.length(); i++) {
-            if (this.text.charAt(count) != word.charAt(i))
-                return false;
-            count++;
-        }
-        return true;
     }
 
     private static class WordIndexerTester {

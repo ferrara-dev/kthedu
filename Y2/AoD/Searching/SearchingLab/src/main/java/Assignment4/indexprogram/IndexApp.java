@@ -2,6 +2,7 @@ package Assignment4.indexprogram;
 
 import datastruct.st.LinkedHashTable;
 import util.Stopwatch;
+
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
 import java.util.Scanner;
@@ -9,7 +10,7 @@ import java.util.Scanner;
 /**
  * "index"-program which allows the user to ask for
  * the position of a word in a text.
- *
+ * <p>
  * The text is read from the {@link FileInputStream} that is given
  * as constructor argument.
  */
@@ -32,7 +33,7 @@ public class IndexApp {
      */
     public boolean runApplication() {
         System.out.println("Enter a word to get its position...");
-        String userInput =  scanner.nextLine();
+        String userInput = scanner.nextLine();
         if (userInput.toLowerCase().equals("exit"))
             return false;
         else {
@@ -50,10 +51,11 @@ public class IndexApp {
                             + "\""
             );
         } else {
-            System.out.println("The word " + "\"" + wordIndices.getWord() + "\"" +
-                    " was found on the following position(s) " +
+            System.out.println("The word " + "\"" + wordIndices.getWord() + "\"" + "appears " + wordIndices.getIndexes().size()
+                    + " time(s)" + " on the following position(s) " +
                     wordIndices.getIndexes().toString());
         }
+
         System.out.print("Press any key to continue . . . ");
         scanner.nextLine();
         for (int i = 0; i < 5; i++)

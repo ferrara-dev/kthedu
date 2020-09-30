@@ -1,9 +1,17 @@
 package Assignment4;
 
 import Assignment4.indexprogram.IndexApp;
+import Assignment4.indexprogram.WordIndexer;
+import Assignment4.indexprogram.WordIndices;
+import datastruct.st.BinarySearchTree;
+import datastruct.st.LinkedHashTable;
+import datastruct.st.ST;
+import util.Stopwatch;
 
+import java.io.BufferedInputStream;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.util.Scanner;
 
 /**
  *
@@ -21,6 +29,16 @@ import java.io.FileNotFoundException;
  * </Introduction>
  *
  * <Solution>
+ *  {@link WordIndexer} is the class responsible for indexing
+ *  each of the words in the text.
+ *
+ *  The idexing is done by mapping distinct words to a list of
+ *  indicies using either {@link BinarySearchTree} or {@link LinkedHashTable}
+ *  which are both implementations of the {@link ST} interface.
+ *
+ *  The datastructures are built by the following algorithm :
+ *  1. Load the text, filter it and save each line in a list.
+ *  2
  *
  * </Solution>
  */

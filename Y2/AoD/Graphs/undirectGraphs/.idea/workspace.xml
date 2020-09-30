@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="60f5cfb7-cbbf-4782-ac6e-bd6582f94652" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/Assignment3/Assignment3Alt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment3/Assignment3$HashTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment3/Assignment3Alt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Y1/Datorteknik/MiniProject/project_edition2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Y1/Datorteknik/MiniProject/project_edition2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Y1/Datorteknik/MiniProject/project_edition4" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Y1/Datorteknik/MiniProject/project_edition4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Y1/Datorteknik/MiniProject/project_edition5" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Y1/Datorteknik/MiniProject/project_edition5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Y1/objectOrientedDesign" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Y1/objectOrientedDesign" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/Sorting/Lab/src/main/java/util/algorithmtest/ScriptRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/Sorting/ex_insertionsort/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/Sorting/ex_insertionsort/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/Sorting/ex_insertionsort/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/Sorting/ex_insertionsort/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/Sorting/ex_insertionsort/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/Sorting/ex_insertionsort/ex_insertionsort.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/Sorting/ex_insertionsort/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/Sorting/ex_insertionsort/src/main/java/IOUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/Sorting/ex_insertionsort/src/main/java/InsertionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/Sorting/ex_insertionsort/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/Sorting/ex_insertionsort/target/classes/IOUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/Sorting/ex_insertionsort/target/classes/InsertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/Sorting/ex_insertionsort/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/Sorting/highergrade1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/Sorting/highergrade1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/Sorting/highergrade1/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/Sorting/highergrade1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/Sorting/highergrade1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/Sorting/highergrade1/highergrade1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/Sorting/highergrade1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/Sorting/highergrade1/src/main/java/CharStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/Sorting/highergrade1/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/Sorting/highergrade1/src/main/java/Parentheses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/Sorting/highergrade1/src/main/java/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/.idea/E1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/.idea/ls.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/Assignment1Input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/Assignment1Main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/3.16.5/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/3.16.5/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/3.16.5/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/ls.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/ls.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/ls.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/ls.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/ls.dir/datastructure/Node.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/ls.dir/datastructure/Stack.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/ls.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/ls.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/ls.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/ls.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/ls.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/ls.dir/main.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/ls.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/ls.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/ls.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/E1.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/ls.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/cmake-build-debug/ls.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/E1/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/JavaAssignments.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/assignment2/Assignment2Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/assignment2/BasicStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/assignment2/IOUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/assignment2/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/assignment2/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/assignment3/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/assignment3/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/assignment3/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/assignment4/GenericQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/assignment4/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/assignment4/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/assignment5/GeneralizedQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/assignment5/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/assignment6/OrderedQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/assignment6/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/balancedparentheses/CharStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/balancedparentheses/Parentheses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/balancedparentheses/ParenthesesCheckMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/balancedparentheses/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/util/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/util/ConsoleTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/util/InputInterpreter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/util/StdRandom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/util/TestUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/util/stopwatch/MilliStopwatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/util/stopwatch/NanoStopwatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/util/stopwatch/SecondStopwatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/util/stopwatch/Stopwatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/main/java/util/stopwatch/StopwatchFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/test/java/assignment2/TestBasicStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/test/java/assignment3/QueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/test/java/assignment4/GenericQueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/test/java/assignment5/GeneralizedQueueStringTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/test/java/assignment5/GeneralizedQueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/test/java/assignment6/OrderedQueueJUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/src/test/java/balancedparentheses/TestParentheses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/META-INF/JavaAssignments.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/assignment2/Assignment2Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/assignment2/BasicStack$LinkedIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/assignment2/BasicStack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/assignment2/BasicStack$Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/assignment2/BasicStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/assignment2/IOUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/assignment3/Queue$LinkedIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/assignment3/Queue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/assignment3/Queue$Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/assignment3/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/assignment4/GenericQueue$LinkedIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/assignment4/GenericQueue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/assignment4/GenericQueue$Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/assignment4/GenericQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/assignment5/GeneralizedQueue$LinkedIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/assignment5/GeneralizedQueue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/assignment5/GeneralizedQueue$Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/assignment5/GeneralizedQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/assignment6/OrderedQueue$LinkedIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/assignment6/OrderedQueue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/assignment6/OrderedQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/balancedparentheses/CharStack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/balancedparentheses/CharStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/balancedparentheses/Parentheses$Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/balancedparentheses/Parentheses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/balancedparentheses/ParenthesesCheckMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/util/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/util/ConsoleTable$ConsoleTableTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/util/ConsoleTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/util/InputInterpreter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/util/StdRandom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/util/TestUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/util/stopwatch/MilliStopwatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/util/stopwatch/NanoStopwatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/util/stopwatch/SecondStopwatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/util/stopwatch/Stopwatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/util/stopwatch/StopwatchFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/util/stopwatch/StopwatchFactory$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/util/stopwatch/StopwatchFactory$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/classes/util/stopwatch/StopwatchFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/test-classes/META-INF/JavaAssignments.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/test-classes/assignment2/TestBasicStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/test-classes/assignment3/QueueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/test-classes/assignment4/GenericQueueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/test-classes/assignment5/GeneralizedQueueStringTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/test-classes/assignment5/GeneralizedQueueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/test-classes/assignment6/OrderedQueueJUnitTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Lab/JavaAssignments/target/test-classes/balancedparentheses/TestParentheses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/LinkedList/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/LinkedList/.idea/LinkedList.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/LinkedList/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/LinkedList/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/LinkedList/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/LinkedList/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/LinkedList/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/LinkedList/cmake-build-debug/CMakeFiles/3.16.5/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/LinkedList/cmake-build-debug/CMakeFiles/3.16.5/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/LinkedList/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/LinkedList/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/LinkedList/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/LinkedList/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/LinkedList/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/LinkedList/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/LinkedList/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/LinkedList/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/LinkedList/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/LinkedList/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/.idea/Unity-master.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/auto/colour_prompt.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/auto/colour_reporter.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/auto/generate_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/auto/generate_module.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/auto/generate_test_runner.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/auto/parse_output.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/auto/run_test.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/auto/stylize_as_junit.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/auto/test_file_filter.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/auto/type_sanitizer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/auto/unity_test_summary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/auto/unity_test_summary.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/auto/unity_to_junit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/cmake-build-debug/CMakeFiles/3.16.5/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/cmake-build-debug/CMakeFiles/3.16.5/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/docs/ThrowTheSwitchCodingStandard.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/docs/UnityAssertionsCheatSheetSuitableforPrintingandPossiblyFraming.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/docs/UnityAssertionsReference.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/docs/UnityConfigurationGuide.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/docs/UnityGettingStartedGuide.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/docs/UnityHelperScriptsGuide.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_1/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_1/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_1/src/ProductionCode.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_1/src/ProductionCode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_1/src/ProductionCode2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_1/src/ProductionCode2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_1/test/TestProductionCode.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_1/test/TestProductionCode2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_1/test/test_runners/TestProductionCode2_Runner.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_1/test/test_runners/TestProductionCode_Runner.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_2/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_2/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_2/src/ProductionCode.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_2/src/ProductionCode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_2/src/ProductionCode2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_2/src/ProductionCode2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_2/test/TestProductionCode.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_2/test/TestProductionCode2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_2/test/test_runners/TestProductionCode2_Runner.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_2/test/test_runners/TestProductionCode_Runner.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_2/test/test_runners/all_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_3/helper/UnityHelper.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_3/helper/UnityHelper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_3/rakefile.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_3/rakefile_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_3/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_3/src/ProductionCode.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_3/src/ProductionCode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_3/src/ProductionCode2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_3/src/ProductionCode2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_3/target_gcc_32.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_3/test/TestProductionCode.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_3/test/TestProductionCode2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_4/meson.build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_4/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_4/src/ProductionCode.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_4/src/ProductionCode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_4/src/ProductionCode2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_4/src/ProductionCode2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_4/src/meson.build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_4/subprojects/unity.wrap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_4/test/TestProductionCode.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_4/test/TestProductionCode2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_4/test/meson.build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_4/test/test_runners/TestProductionCode2_Runner.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_4/test/test_runners/TestProductionCode_Runner.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/example_4/test/test_runners/meson.build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/examples/unity_config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/extras/eclipse/error_parsers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/extras/fixture/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/extras/fixture/src/unity_fixture.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/extras/fixture/src/unity_fixture.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/extras/fixture/src/unity_fixture_internals.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/extras/fixture/test/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/extras/fixture/test/main/AllTests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/extras/fixture/test/template_fixture_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/extras/fixture/test/unity_fixture_Test.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/extras/fixture/test/unity_fixture_TestRunner.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/extras/memory/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/extras/memory/src/unity_memory.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/extras/memory/src/unity_memory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/extras/memory/test/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/extras/memory/test/unity_memory_Test.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/extras/memory/test/unity_memory_TestRunner.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/extras/memory/test/unity_output_Spy.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/extras/memory/test/unity_output_Spy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/meson.build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/src/meson.build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/src/unity.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/src/unity.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/src/unity_internals.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/.rubocop.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/expectdata/testsample_cmd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/expectdata/testsample_def.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/expectdata/testsample_head1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/expectdata/testsample_head1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/expectdata/testsample_mock_cmd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/expectdata/testsample_mock_def.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/expectdata/testsample_mock_head1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/expectdata/testsample_mock_head1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/expectdata/testsample_mock_new1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/expectdata/testsample_mock_new2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/expectdata/testsample_mock_param.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/expectdata/testsample_mock_run1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/expectdata/testsample_mock_run2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/expectdata/testsample_mock_yaml.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/expectdata/testsample_new1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/expectdata/testsample_new2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/expectdata/testsample_param.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/expectdata/testsample_run1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/expectdata/testsample_run2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/expectdata/testsample_yaml.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/rakefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/rakefile_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/spec/generate_module_existing_file_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/targets/ansi.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/targets/clang_file.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/targets/clang_strict.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/targets/gcc_32.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/targets/gcc_64.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/targets/gcc_auto_limits.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/targets/gcc_auto_stdint.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/targets/gcc_manual_math.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/targets/hitech_picc18.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/targets/iar_arm_v4.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/targets/iar_arm_v5.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/targets/iar_arm_v5_3.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/targets/iar_armcortex_LM3S9B92_v5_4.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/targets/iar_cortexm3_v5.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/targets/iar_msp430.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/targets/iar_sh2a_v6.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/testdata/CException.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/testdata/Defs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/testdata/cmock.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/testdata/mockMock.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/testdata/testRunnerGenerator.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/testdata/testRunnerGeneratorSmall.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/testdata/testRunnerGeneratorWithMocks.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/tests/self_assessment_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/tests/test_generate_test_runner.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/tests/test_unity_arrays.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/tests/test_unity_core.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/tests/test_unity_doubles.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/tests/test_unity_floats.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/tests/test_unity_integers.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/tests/test_unity_integers_64.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/tests/test_unity_memory.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/tests/test_unity_parameterized.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/test/tests/test_unity_strings.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/Unity-master/unityConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/.idea/ls.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/3.16.5/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/3.16.5/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/3.16.5/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/ls.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/ls.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/ls.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/ls.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/ls.dir/datastructure/Node.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/ls.dir/datastructure/Stack.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/ls.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/ls.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/ls.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/ls.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/ls.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/ls.dir/main.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/ls.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/ls.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/ls.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/ls.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/cmake-build-debug/ls.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/datastructure/Node.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/datastructure/Node.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/datastructure/Stack.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/datastructure/Stack.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/C-singleLinked/ls/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/Java-singleLinked/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/Java-singleLinked/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/Java-singleLinked/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/Java-singleLinked/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/Java-singleLinked/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/Java-singleLinked/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/Java-singleLinked/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/Java-singleLinked/Java-singleLinked.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/Java-singleLinked/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/Java-singleLinked/src/main/java/src/FIFOLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/Java-singleLinked/src/main/java/src/IllegalOperationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/Java-singleLinked/src/main/java/src/LIFOLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/Java-singleLinked/src/main/java/src/LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/Java-singleLinked/src/main/java/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/Java-singleLinked/src/test/java/TestLifo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/Java-singleLinked/target/classes/META-INF/Java-singleLinked.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/Java-singleLinked/target/classes/src/FIFOLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/Java-singleLinked/target/classes/src/IllegalOperationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/Java-singleLinked/target/classes/src/LIFOLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/Java-singleLinked/target/classes/src/LinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/Java-singleLinked/target/classes/src/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/Java-singleLinked/target/classes/src/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/LinkedLists/Java-singleLinked/target/test-classes/TestLifo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Queue/queue-java/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Queue/queue-java/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Queue/queue-java/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Queue/queue-java/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Queue/queue-java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Queue/queue-java/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Queue/queue-java/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Queue/queue-java/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Queue/queue-java/queue.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Queue/queue-java/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Queue/queue-java/src/main/java/datastructure/FIFOQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Queue/queue-java/src/main/java/datastructure/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Queue/queue-java/src/main/java/datastructure/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Queue/queue-java/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Queue/queue-java/target/classes/datastructure/FIFOQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Queue/queue-java/target/classes/datastructure/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Queue/queue-java/target/classes/datastructure/Stack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Queue/queue-java/target/classes/datastructure/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Recursion/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Recursion/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Recursion/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Recursion/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Recursion/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Recursion/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Recursion/Recursion.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Recursion/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Recursion/src/main/java/recursion/max/ArrayUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Recursion/src/main/java/recursion/max/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Recursion/src/main/java/recursion/max/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Recursion/src/main/java/recursion/seq/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Recursion/src/main/java/recursion/seq/Sequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Recursion/target/classes/META-INF/Recursion.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Recursion/target/classes/recursion/max/ArrayUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Recursion/target/classes/recursion/max/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Recursion/target/classes/recursion/seq/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/Recursion/target/classes/recursion/seq/Sequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/sl/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/sl/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/sl/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/sl/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/sl/.idea/sl.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/sl/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/sl/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/sl/sl.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/sl/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/sl/src/main/java/datastructures/Bag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/sl/src/main/java/datastructures/LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/sl/src/main/java/datastructures/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/sl/src/main/java/datastructures/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/sl/src/test/java/stack/TestPop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/sl/src/test/java/stack/TestPush.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/sl/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/sl/target/classes/datastructures/Bag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/sl/target/classes/datastructures/LinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/sl/target/classes/datastructures/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/sl/target/classes/datastructures/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/sl/target/classes/datastructures/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/TheFundamentals/sl/target/test-classes/stack/TestPush.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithmer&amp;Datastrukturer/lab1-Thefundamentals/Assignment2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/Assignment1/Assignment1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/Assignment1/Assignment1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/Assignment1/TextFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/Assignment1/TextFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/Assignment2/Assignment2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/Assignment2/Assignment2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/Assignment2/FrequencyCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/Assignment2/WordFrequency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/Assignment3/Assignment3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/Assignment3/Assignment3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/Assignment3/Exercise3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/Assignment3/HashDistribution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/Assignment3/Q5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/Assignment3/StringJavaHashFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/Assignment4/PerformanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/Assignment4/PerformanceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/Assignment4/assignment4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/Assignment4/assignment4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/Assignment4/indexprogram/IndexApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/Assignment4/indexprogram/IndexApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/Assignment4/indexprogram/WordIndexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/Assignment4/indexprogram/WordIndexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/datastruct/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/datastruct/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/datastruct/set/HashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/datastruct/set/HashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/datastruct/st/BinarySearchSymbolTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/datastruct/st/BinarySearchSymbolTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/datastruct/st/LinkedHashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/datastruct/st/LinkedHashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/datastruct/st/SequentialSearchST.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/datastruct/st/SequentialSearchST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/theoryassignment1/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/theoryassignment1/theory1b.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/theoryassignment1/BTreePrinterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/util/Compare.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/src/main/java/util/Compare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment1/Assignment1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment1/Assignment1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment1/TextFilter$TextFilterTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment1/TextFilter$TextFilterTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment1/TextFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment1/TextFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment2/Assignment2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment2/Assignment2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment2/FrequencyCounter$FrequencyCountTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment2/FrequencyCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment2/WordFrequency.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment3/Assignment3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment3/Assignment3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment3/BucketTest$HashTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment3/BucketTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment3/Exercise3$SeparateChainingHashTableLinkedListWithDeleteK$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment3/Exercise3$SeparateChainingHashTableLinkedListWithDeleteK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment3/Exercise3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment3/HastST$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment3/HastST$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment3/HastST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment3/Q5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment3/ST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment3/SequentialSearchST$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment3/SequentialSearchST$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment3/SequentialSearchST$SeqSTIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment3/SequentialSearchST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment3/StringJavaHashFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment4/PerformanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment4/PerformanceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment4/assignment4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment4/assignment4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment4/indexprogram/IndexApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment4/indexprogram/IndexApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment4/indexprogram/WordIndexer$WordIndexerTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment4/indexprogram/WordIndexer$WordIndexerTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment4/indexprogram/WordIndexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/Assignment4/indexprogram/WordIndexer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/datastruct/List$LinkedIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/datastruct/List$LinkedIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/datastruct/List$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/datastruct/List$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/datastruct/List$Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/datastruct/List$Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/datastruct/List.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/datastruct/List.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/datastruct/st/BinarySearchSymbolTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/datastruct/st/BinarySearchSymbolTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/datastruct/st/LinkedHashTable$Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/datastruct/st/LinkedHashTable$Entry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/datastruct/st/LinkedHashTable$LinkedHashTableTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/datastruct/st/LinkedHashTable$LinkedHashTableTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/datastruct/st/LinkedHashTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/datastruct/st/LinkedHashTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/datastruct/st/SequentialSearchST.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/datastruct/st/SequentialSearchST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/theoryassignment1/BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/theoryassignment1/BTreePrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/theoryassignment1/BTreePrinterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/theoryassignment1/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/util/Compare.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Searching/SearchingLab/target/classes/util/Compare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IX1500/Mathematica/Projekt1/IX1500_Rapport1.nb" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1iBYQ94MzZqKVlfERh5NNqxxFZW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../undirectedGraph" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60f5cfb7-cbbf-4782-ac6e-bd6582f94652" name="Default Changelist" comment="" />
+      <created>1601382435197</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601382435197</updated>
+      <workItem from="1601382441239" duration="65000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1601382503127">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1601382503127" />
+  </component>
+</project>
