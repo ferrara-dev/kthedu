@@ -1,8 +1,6 @@
 package graph;
 
-import search.BFSearch;
-import search.DFSearch;
-import search.Search;
+import graph.search.Search;
 
 public interface Graph<T> extends Iterable<T>{
     int numberOfVertices();

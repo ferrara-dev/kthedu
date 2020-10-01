@@ -1,13 +1,10 @@
 package Assignment1;
 
-import datastruct.list.Bag;
 import datastruct.list.LinkedList;
-import datastruct.st.SET;
 import graph.Graph;
 import graph.GraphImpl;
-import search.BFSearch;
-import search.DFSearch;
-import search.Search;
+import graph.search.DFSearch;
+import graph.search.Search;
 
 import java.io.File;
 import java.io.FileInputStream;

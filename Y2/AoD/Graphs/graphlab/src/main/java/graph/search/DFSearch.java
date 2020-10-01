@@ -1,7 +1,5 @@
-package search;
+package graph.search;
 
-import datastruct.list.Bag;
-import datastruct.list.Stack;
 import datastruct.st.HashTable;
 import graph.Graph;
 import graph.GraphImpl;
@@ -39,7 +37,7 @@ public class DFSearch<T> extends Search<T>{
 
     /**
      * Search method Overridden to implement the
-     * depth-first-search algorithm.
+     * depth-first-graph.search algorithm.
      *
      * Called only at instantiation
      * @param graph the graph that is searched

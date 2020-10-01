@@ -48,7 +48,7 @@ public class BinarySearchTree<Key extends Comparable<Key>, Value> implements ST<
      * @param x   current node
      *
      * @return value that matches to {@link Key} or null
-     * if the search fails.
+     * if the graph.search fails.
      */
     private Value get(Key key, Node x) {
         if (Objects.isNull(x))

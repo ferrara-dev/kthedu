@@ -22,8 +22,8 @@ public class SequentialSearchST<Key, Value> implements ST<Key, Value> {
     public Value get(Key key) { // Search for key, return associated value.
         for (Node x = first; x != null; x = x.next)
             if (key.equals(x.key))
-                return x.val; // search hit
-        return null; // search miss
+                return x.val; // graph.search hit
+        return null; // graph.search miss
     }
 
     @Override

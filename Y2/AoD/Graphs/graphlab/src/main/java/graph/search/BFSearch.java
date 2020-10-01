@@ -1,4 +1,4 @@
-package search;
+package graph.search;
 
 import datastruct.list.FIFOQueue;
 import graph.Graph;
@@ -11,7 +11,7 @@ public class BFSearch<V> extends Search<V> {
 
     /**
      * Search method Override to implement the
-     * depth-first-search algorithm.
+     * depth-first-graph.search algorithm.
      *
      * Called only at instantiation
      * @param graph

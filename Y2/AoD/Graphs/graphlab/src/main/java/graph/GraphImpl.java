@@ -3,8 +3,8 @@ package graph;
 
 import datastruct.list.ArrayList;
 import datastruct.st.HashTable;
-import search.DFSearch;
-import search.Search;
+import graph.search.DFSearch;
+import graph.search.Search;
 
 import java.util.Iterator;
 

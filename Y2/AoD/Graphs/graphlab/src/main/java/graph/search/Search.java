@@ -1,4 +1,4 @@
-package search;
+package graph.search;
 
 
 import datastruct.list.Stack;
