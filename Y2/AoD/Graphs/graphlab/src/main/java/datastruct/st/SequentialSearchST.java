@@ -1,6 +1,7 @@
 package datastruct.st;
 
-import datastruct.List;
+
+import datastruct.list.LinkedList;
 
 public class SequentialSearchST<Key, Value> implements ST<Key, Value> {
     private Node first; // first node in the linked list
@@ -52,7 +53,7 @@ public class SequentialSearchST<Key, Value> implements ST<Key, Value> {
 
     @Override
     public Iterable<Key> keys() {
-        List<Key> keys = new List<>();
+        LinkedList<Key> keys = new LinkedList<>();
         for (Node x = first; x != null; x = x.next)
             keys.add(x.key);
         return keys;

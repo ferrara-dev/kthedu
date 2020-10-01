@@ -52,6 +52,9 @@ public class Stack<Item> implements Iterable<Item> {
         }
     }
 
+    public boolean isEmpty(){
+        return size == 0;
+    }
     public int size() {
         return size;
     }

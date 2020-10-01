@@ -27,19 +27,23 @@ public class Bag<Item> implements Iterable<Item>{
      * @param item
      */
     public void add(Item item){
-        if(this.head == null){
-            this.head = new Node<>(item);
-        }
-        else {
-            Node<Item> node = new Node<>(item, head);
-            head = node;
-        }
+        Node<Item> oldfirst = head;
+        head = new Node<Item>(item, oldfirst);
         size++;
     }
 
     public int size(){
         return size;
     }
+
+    public boolean contains(Item item){
+        for(Item i : this){
+            if(i.equals(item))
+                return true;
+        }
+        return false;
+    }
+
     /**
      * Return LIFO iterator
      * @return

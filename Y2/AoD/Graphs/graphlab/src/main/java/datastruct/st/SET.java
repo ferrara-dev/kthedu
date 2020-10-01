@@ -20,7 +20,7 @@ public class SET<Key extends Comparable<Key>> implements Iterable<Key>{
      *
      * @param x the set to copy
      */
-    public SET(datastruct.set.SET<Key> x) {
+    public SET(SET<Key> x) {
         set = new TreeSet<Key>(x.set);
     }
 
@@ -163,9 +163,9 @@ public class SET<Key extends Comparable<Key>> implements Iterable<Key>{
      * @return the union of this set and that set
      * @throws IllegalArgumentException if {@code that} is {@code null}
      */
-    public datastruct.set.SET<Key> union(datastruct.set.SET<Key> that) {
+    public SET<Key> union(SET<Key> that) {
         if (that == null) throw new IllegalArgumentException("called union() with a null argument");
-        datastruct.set.SET<Key> c = new datastruct.set.SET<Key>();
+        SET<Key> c = new SET<Key>();
         for (Key x : this) {
             c.add(x);
         }
@@ -182,9 +182,9 @@ public class SET<Key extends Comparable<Key>> implements Iterable<Key>{
      * @return the intersection of this set and that set
      * @throws IllegalArgumentException if {@code that} is {@code null}
      */
-    public datastruct.set.SET<Key> intersects(datastruct.set.SET<Key> that) {
+    public SET<Key> intersects(SET<Key> that) {
         if (that == null) throw new IllegalArgumentException("called intersects() with a null argument");
-        datastruct.set.SET<Key> c = new datastruct.set.SET<Key>();
+        SET<Key> c = new SET<Key>();
         if (this.size() < that.size()) {
             for (Key x : this) {
                 if (that.contains(x)) c.add(x);
@@ -215,7 +215,7 @@ public class SET<Key extends Comparable<Key>> implements Iterable<Key>{
         if (other == this) return true;
         if (other == null) return false;
         if (other.getClass() != this.getClass()) return false;
-        datastruct.set.SET that = (datastruct.set.SET) other;
+        SET that = (SET) other;
         return this.set.equals(that.set);
     }
 

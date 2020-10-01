@@ -25,8 +25,8 @@ public class FIFOQueue<Item> implements Iterable<Item> {
         return false;
     }
 
-    public static list.FIFOQueue listOf(Object... items) {
-        list.FIFOQueue lst = new list.FIFOQueue();
+    public static FIFOQueue listOf(Object... items) {
+        FIFOQueue lst = new FIFOQueue();
         for (Object item : items) {
             lst.enqueue(item);
         }
@@ -158,7 +158,7 @@ public class FIFOQueue<Item> implements Iterable<Item> {
         size += 1;
     }
 
-    public void enqueueAll(list.LinkedList<Item> lst) {
+    public void enqueueAll(LinkedList<Item> lst) {
         if (lst == null)
             throw new IllegalArgumentException();
         for(Item item : lst){
@@ -270,15 +270,5 @@ public class FIFOQueue<Item> implements Iterable<Item> {
             current = current.prev;
             return item;
         }
-    }
-
-
-    public static void main(String...args){
-        list.LinkedList<Integer> linkedList = new list.LinkedList<>();
-        linkedList.add(1);
-        linkedList.add(2);
-        linkedList.add(3);
-        int firstIn = linkedList.dequeue();
-        System.out.println(firstIn);
     }
 }

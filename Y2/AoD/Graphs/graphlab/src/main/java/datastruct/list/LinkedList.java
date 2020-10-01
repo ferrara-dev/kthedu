@@ -34,14 +34,21 @@ public class LinkedList <Item> implements Iterable<Item>{
         return false;
     }
 
-    public static list.LinkedList listOf(Object... items) {
-        list.LinkedList lst = new list.LinkedList();
+    public static LinkedList listOf(Object... items) {
+        LinkedList lst = new LinkedList();
         for (Object item : items) {
             lst.add(item);
         }
         return lst;
     }
 
+    public static LinkedList listOf(Iterable items) {
+        LinkedList lst = new LinkedList();
+        for (Object item : items) {
+            lst.add(item);
+        }
+        return lst;
+    }
 
     /**
      * Check if the list is empty.
@@ -167,7 +174,7 @@ public class LinkedList <Item> implements Iterable<Item>{
         size += 1;
     }
 
-    public void addAll(list.LinkedList<Item> lst) {
+    public void addAll(LinkedList<Item> lst) {
         if (lst == null)
             throw new IllegalArgumentException();
         for(Item item : lst){
@@ -258,7 +265,7 @@ public class LinkedList <Item> implements Iterable<Item>{
      * @return an iterator to this stack that iterates through the items in FIFO order
      */
     public Iterator<Item> iterator() {
-        return new LinkedIterator(sentinel.next);
+        return new LinkedIterator(sentinel.prev);
     }
 
     private class LinkedIterator implements Iterator<Item> {
@@ -276,18 +283,20 @@ public class LinkedList <Item> implements Iterable<Item>{
             if (!hasNext())
                 throw new NoSuchElementException();
             Item item = current.item;
-            current = current.next;
+            current = current.prev;
             return item;
         }
     }
 
 
     public static void main(String...args){
-        list.LinkedList<Integer> linkedList = new list.LinkedList<>();
+        LinkedList<Integer> linkedList = new LinkedList<>();
         linkedList.add(1);
         linkedList.add(2);
         linkedList.add(3);
+        linkedList.print();
         int firstIn = linkedList.dequeue();
         System.out.println(firstIn);
+
     }
 }

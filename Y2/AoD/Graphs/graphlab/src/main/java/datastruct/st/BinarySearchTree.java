@@ -1,6 +1,6 @@
 package datastruct.st;
 
-import datastruct.List;
+import datastruct.list.LinkedList;
 import util.Compare;
 
 import java.util.ArrayList;
@@ -227,13 +227,13 @@ public class BinarySearchTree<Key extends Comparable<Key>, Value> implements ST<
 
     @Override
     public Iterable<Key> keys() {
-        List<Key> keys = new List<>();
+        LinkedList<Key> keys = new LinkedList<>();
         if (!isEmpty())
             keys(root, keys, min(), max());
         return keys;
     }
 
-    private void keys(Node x, List<Key> queue, Key lo, Key hi) {
+    private void keys(Node x, LinkedList<Key> queue, Key lo, Key hi) {
         if (x == null)
             return;
         if (Compare.lessThan(lo, hi))
