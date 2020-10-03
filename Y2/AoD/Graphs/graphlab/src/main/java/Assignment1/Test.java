@@ -2,7 +2,7 @@ package Assignment1;
 
 import datastruct.list.LinkedList;
 import graph.Graph;
-import graph.GraphImpl;
+import graph.BasicGraph;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -15,7 +15,7 @@ public class Test {
 
     public static void main(String[] args) throws FileNotFoundException {
         String filename = args[0];
-        Graph<String> graph = new GraphImpl<>();
+        Graph<String> graph = new BasicGraph<>(false);
         LinkedList<String> input = getInput(filename);
         initGraph(graph,input);
         String source = userIn();

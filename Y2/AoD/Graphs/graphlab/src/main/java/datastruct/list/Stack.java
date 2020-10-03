@@ -37,6 +37,13 @@ public class Stack<Item> implements Iterable<Item> {
         size++;
     }
 
+    public Item peek(){
+        if (this.head == null)
+            throw new NoSuchElementException();
+
+        Item item = head.item;
+        return item;
+    }
     /**
      * Pop element from front of stack
      * @return

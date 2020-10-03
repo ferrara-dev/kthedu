@@ -260,7 +260,6 @@ public class HashTable<Key, Value> implements ST<Key, Value> {
         return keys;
     }
 
-
     public Iterable<Entry> entries() {
         LinkedList<Entry> entries = new LinkedList<>();
         for (int i = 0; i < M; i++) {

@@ -23,6 +23,19 @@ public class ArrayList<Item> implements Iterable<Item> {
         last = 0;
     }
 
+    public ArrayList(Item [] items){
+        this();
+        for(Item item : items){
+            add(item);
+        }
+    }
+
+    public ArrayList(Iterable<Item> items){
+        this();
+        for(Item item : items){
+            add(item);
+        }
+    }
     /**
      * Is this queue empty?
      *
@@ -98,7 +111,7 @@ public class ArrayList<Item> implements Iterable<Item> {
     }
 
     public Item get(int index) {
-        if (index < 1 || index >= n) {
+        if (index < 0 || index >= n) {
             throw new IndexOutOfBoundsException();
         } else
             return q[index];

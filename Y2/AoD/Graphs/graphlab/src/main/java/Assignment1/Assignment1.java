@@ -1,10 +1,11 @@
 package Assignment1;
 
+import datastruct.list.ArrayList;
 import datastruct.list.LinkedList;
 import graph.Graph;
-import graph.GraphImpl;
+import graph.BasicGraph;
 import graph.search.DFSearch;
-import graph.search.Search;
+import graph.search.SearchStrategy;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -30,7 +31,7 @@ public class Assignment1 {
      */
     public static void main(String... args) {
         LinkedList<String> rows = null;
-        Graph<String> graph = new GraphImpl<>();
+        Graph<String> graph = new BasicGraph<>(false);
 
         try {
             rows = getInput(args[0]);
@@ -48,24 +49,23 @@ public class Assignment1 {
         while (true) {
             String userInput[] = Input.userInput();
             String command = userInput[0];
-
             if (command.toLowerCase().equals("stop"))
                 break;
 
             String source = userInput[1];
             String destination = userInput[2];
-            Search<String> search = new DFSearch<>(graph, source);
-            boolean pathExists = search.hasPathTo(destination);
+            SearchStrategy<String> searchStrategy = new DFSearch<>(graph, source);
+            boolean pathExists = searchStrategy.hasPathTo(destination);
             if (command.toLowerCase().equals("path")) {
                 if (pathExists) {
-                    LinkedList<String> path = LinkedList.listOf(search.pathTo(destination));
+                    ArrayList<String> path = new ArrayList<>(searchStrategy.pathTo(destination));
                     String p = "";
                     for (String vertex : path) {
-                        if (!vertex.equals(destination) || !vertex.equals(source)) {
+                        if (!vertex.equals(destination) && !vertex.equals(source)) {
                             p += "[" + vertex + "]" + "-";
                         }
                     }
-                    System.out.println("Path from " + "[" + source + "]" + " to " + "[" + destination + "] : " + p);
+                    System.out.println("graph.Path from " + "[" + source + "]" + " to " + "[" + destination + "] : " + p);
                 } else {
                     System.out.println("No path exists between " + source + " and " + destination);
                 }
@@ -75,10 +75,10 @@ public class Assignment1 {
 
             else if (command.toLowerCase().equals("exists")){
                 if(pathExists){
-                    System.out.println("Path from " + "[" + source + "]" + " to " + "[" + destination + "] : " + " Exists !");
+                    System.out.println("graph.Path from " + "[" + source + "]" + " to " + "[" + destination + "] : " + " Exists !");
                 }
                 else {
-                    System.out.println("Path from " + "[" + source + "]" + " to " + "[" + destination + "] : " + " Does not Exist !");
+                    System.out.println("graph.Path from " + "[" + source + "]" + " to " + "[" + destination + "] : " + " Does not Exist !");
                 }
 
             }
@@ -90,7 +90,7 @@ public class Assignment1 {
         for (String row : rows) {
             String[] vertices = row.split(delimiter);
             if (vertices.length == 1)
-                graph.adjVertices(vertices[0]);
+                graph.addVertex(vertices[0]);
             else
                 graph.addEdge(vertices[0], vertices[1]);
         }

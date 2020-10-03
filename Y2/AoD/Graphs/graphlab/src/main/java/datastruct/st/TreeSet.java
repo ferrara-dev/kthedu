@@ -106,7 +106,7 @@ public class TreeSet <Key extends Comparable<Key>>{
     }
 
     /**
-     * Search the tree for a given key.
+     * SearchStrategy the tree for a given key.
      * <p>
      * If searched key is less than key of
      * current node, move to the left.

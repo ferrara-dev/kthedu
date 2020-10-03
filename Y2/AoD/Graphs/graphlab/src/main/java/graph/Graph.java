@@ -1,13 +1,14 @@
 package graph;
 
-import graph.search.Search;
+import graph.search.SearchStrategy;
 
-public interface Graph<T> extends Iterable<T>{
+public interface Graph<T>{
     int numberOfVertices();
 
     int edges();
 
     boolean addVertex(T t);
+
 
     void addEdge(T t1, T t2);
 
@@ -19,8 +20,7 @@ public interface Graph<T> extends Iterable<T>{
 
     boolean hasVertex(T v);
 
-    Class<?> getVertexType();
+    boolean hasVertices(T...v);
 
-    Search<T> depthFirstSearch(T source);
-
+    boolean isDirected();
 }

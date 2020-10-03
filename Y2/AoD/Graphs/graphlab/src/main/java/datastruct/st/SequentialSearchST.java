@@ -19,7 +19,7 @@ public class SequentialSearchST<Key, Value> implements ST<Key, Value> {
         }
     }
 
-    public Value get(Key key) { // Search for key, return associated value.
+    public Value get(Key key) { // SearchStrategy for key, return associated value.
         for (Node x = first; x != null; x = x.next)
             if (key.equals(x.key))
                 return x.val; // graph.search hit
@@ -31,13 +31,13 @@ public class SequentialSearchST<Key, Value> implements ST<Key, Value> {
         return n;
     }
 
-    public void put(Key key, Value val) { // Search for key. Update value if found; grow table if new.
+    public void put(Key key, Value val) { // SearchStrategy for key. Update value if found; grow table if new.
         for (Node x = first; x != null; x = x.next)
             if (key.equals(x.key)) {
                 x.val = val;
                 return;
-            } // Search hit: update val.
-        first = new Node(key, val, first); // Search miss: add new node.
+            } // SearchStrategy hit: update val.
+        first = new Node(key, val, first); // SearchStrategy miss: add new node.
         n++;
     }
 
