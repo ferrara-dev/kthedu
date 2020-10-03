@@ -21,7 +21,7 @@ public class Assignment3 {
         UserIn userIn = new UserIn("exists","stop");
         FileIn fileIn = new FileIn(args[0]);
         Graph<String> graph = new BasicGraph<>(true);
-        
+
         while (fileIn.hasNextLine()){
             String vertices [] = fileIn.nextRow().split(" ");
             graph.addEdge(vertices[0],vertices[1]);

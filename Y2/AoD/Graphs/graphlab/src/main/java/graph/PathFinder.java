@@ -16,12 +16,14 @@ import java.util.Objects;
  * Implemented on top of SearchStrategy implementations
  * of Depth-First-Search, Breath-First-Search etc.
  *
+ * {@code searches} is used to cache instances of {@link SearchStrategy} that have been
+ *                  instantiated with a {@link Vertex} source, {@code graph} must contain the source
  *
  * @param <Vertex>
  */
 public class PathFinder<Vertex>{
-    private Graph graph;
-    private HashTable<Object, HashTable<SearchType, SearchStrategy>> searches;
+    private final Graph graph;
+    private HashTable<Vertex, HashTable<SearchType, SearchStrategy>> searches; //
 
     /**
      * Initialized with implementation of {@link Graph<Vertex>}.
@@ -94,7 +96,7 @@ public class PathFinder<Vertex>{
         return path;
     }
 
-    private SearchStrategy strategy(SearchType searchType, Object source){
+    private SearchStrategy strategy(SearchType searchType, Vertex source){
         if (!searches.contains(source)) {
             searches.put(source, new HashTable<>());
             searches.get(source).put(searchType, new DFSearch(graph, source));
